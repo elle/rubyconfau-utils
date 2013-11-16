@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+# Simple script to extract details of pull requests from RubyConfAU CFP repo.
+
 require 'github_api'
 require 'csv'
 
