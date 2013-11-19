@@ -1,0 +1,1394 @@
+,TITLE,PR DESCRIPTION,PROPOSAL,COMMENTS
+1,Continuous Delivery of Rails Applications,,"# Continuous Delivery of Rails Applications (or 'webscale' Rails)
+
+Taking your app from it's infancy, and turning it into something that can serve tens of thousands of requests a minute, is no cakewalk. 
+
+This talk will go through the steps to build a Continuous Delivery pipeline for your Rails Applications. Including:
+  - Running your specs and features (of course)
+  - Building an artifact
+  - Provisioning resilient environments (Amazon or otherwise)
+  - Inactive/Active setup, so you can manually 'gate' production releases
+  - Automatic healing, so you don't get woken up in the middle of the night for minor things
+  - Bonus: Suggestions on monitoring, alerting & backups",
+3,UnderOS,,"# UnderOS
+
+I would like to give a talk about a new exciting project called `under-os`, which is a full-scale browser-like abstraction on top of iOS that uses rubymotion and well, ruby.
+
+It solves a really big problem in a really cool way. Basically, you've got rubymotion, which reduces the hassle of getting into the iOS apps development for rubyists, but it's still iOS, which is very alien to ruby itself and web-developers in general.
+
+So, the ambition of this project is to write a full-scale abstraction in ruby on top of iOS, which will borrow a lot of concepts from the front-end development, like events, templates, stylesheets, etc. But we do it properly and in ruby.
+
+In the end we will have a fully rubyists friendly stack that will be familiar to any web-developer and will drastically reduce the entry level for native apps development.",
+4,Curly — Refactoring the view layer,,"# Curly — Refactoring the view layer
+
+While most parts of Rails have been thoroughly overhauled during the past few years, one part has stubbornly refused improvement. The view layer is still by default using ERB to transform your app’s objects into HTML. Though HAML has gained a lot of traction, it is not a fundamental shift away from ERB, but rather a preference for putting HTML in your Ruby rather than the other way around.
+
+More recent efforts in the realm of JavaScript have produced Mustache and its ambitious younger brother, Handlebars. While these are more radical in their attempt to separate structure and logic, they still do not feel like native Rails code.
+
+While trying to solve a seemingly unrelated problem we discovered a design that suddenly enabled us to move past the limitations of ERB. Though different only in subtle ways, it struck just the right balance between integration with Rails and separation of concerns. We called it Curly.
+
+I will show how we use the same old OO techniques that you already know to clean up our views, making them less prone to bugs, more readable, and more reusable.
+
+I’ll also show how a seemingly small change of our conceptual model enabled us to add advanced behavior to our view layer without ending with an unmaintainable mess.
+
+Curly is open source and available at http://github.com/zendesk/curly",
+9,Mangling Ruby with TracePoint,"Mangling Ruby with TracePoint
+Introduced in Ruby 2.0, TracePoint is meant to help developers better instrument their code for debugging and performance reasons, but there's more to TracePoint than that!
+In this talk we'll learn about TracePoint while building several example projects. Once we know the basics we'll use TracePoint to do things to Ruby that we couldn't have done otherwise.
+By the end of this talk  you'll be able to frighten and amaze your friends when you show them things like true abstract classes and interfaces in Ruby, just like Java! Yikes!
+","# Mangling Ruby with TracePoint
+
+Introduced in Ruby 2.0, TracePoint is meant to help developers better instrument their code for debugging and performance reasons, but there's more to TracePoint than that!
+
+In this talk we'll learn about TracePoint while building several example projects. Once we know the basics we'll use TracePoint to do things to Ruby that we couldn't have done otherwise.
+
+By the end of this talk  you'll be able to frighten and amaze your friends when you show them things like true abstract classes and interfaces in Ruby, just like Java! Yikes!",
+10,GET /better,"Becoming a well sought after and 'better' developer is easier than you think. There are no tonics or elixirs you can take that will instantly make a desirable engineer, but there are easily defined steps to that goal.
+In this talk we will discuss the different avenues that are at your disposal to become a better developer. These achievable steps have led me to a successful software development career, and they can help you too.
+This is not a get rich quick scheme, there is sweat and hard work involved, but it'll fun. So let's get better!","# GET /better
+
+Becoming a well sought after and ""better"" developer is easier than you think. There are no tonics or elixirs you can take that will instantly make a desirable engineer, but there are easily defined steps to that goal.
+
+In this talk we will discuss the different avenues that are at your disposal to become a better developer. These achievable steps have led me to a successful software development career, and they can help you too.
+
+This is not a get rich quick scheme, there is sweat and hard work involved, but it'll fun. So let's get better!",
+11,A Big Look at MiniTest,"In Ruby 1.9 the MiniTest testing framework was introduced. This lightweight testing framework is fast, powerful, and easy to understand, yet so many people over look it.
+In this talk we'll look at using MiniTest in a simple, non-Rails, project and then work up to using it in a Rails application. We'll look at both the TestUnit and RSpec style syntaxes that MiniTest offers. We'll also learn to write custom matchers, run specific files, and much more.
+Testing is important to all Ruby developers, and with such a powerful testing library already bundled with Ruby, shouldn't we learn how to use it?
+","# A Big Look at MiniTest
+
+In Ruby 1.9 the MiniTest testing framework was introduced. This lightweight testing framework is fast, powerful, and easy to understand, yet so many people over look it.
+
+In this talk we'll look at using MiniTest in a simple, non-Rails, project and then work up to using it in a Rails application. We'll look at both the TestUnit and RSpec style syntaxes that MiniTest offers. We'll also learn to write custom matchers, run specific files, and much more.
+
+Testing is important to all Ruby developers, and with such a powerful testing library already bundled with Ruby, shouldn't we learn how to use it?",
+12,Learning from Smalltalk,"This talk covers the features, history and capabilities of Smalltalk and the benefits that it can hold for all Rubyists.","# Learning from Smalltalk
+
+Smalltalk is an object-oriented, dynamically typed, reflective programming language. 
+Smalltalk is a ""pure"" object-oriented programming language, meaning that, unlike 
+Java and C++, there is no difference between values which are objects and values 
+which are primitive types. In Smalltalk, primitive values such as integers, booleans 
+and characters are also objects, in the sense that they are instances of corresponding 
+classes, and operations on them are invoked by sending messages.
+
+Sound familiar?
+
+Smalltalk leaves a long shadow on the programming landscape and can be considered 
+both as an ancestor and influence on the design of Ruby.  This talk introduces 
+Smalltalk to Rubyists and covers software principles which can be applied to Ruby 
+applications, both large and small.
+
+Topics include:
+* Brief overview
+* Design
+* Expressions
+* Literals
+* Messages
+* Patterns
+* Reflection",
+13,tested_passion,"one talk proposal : a 1/4 technical, a 1/2 scientific and a 1/4 human.","# Tested passion
+
+We have all heard the technical reasons why we should do test driven development, and we have all heard the burnout stories.
+
+Have we heard the human reasons why tests are good and why a healthier daily schedule including them could avoid burn out ?
+
+We are delicate organic systems that can work nicely if they are respected and used properly. We crash because we do too much. We continually push ourselves to work, deliver and build : we expect and are expected to produce a lot. We forget we are not factories producing tons of product every day. We are machines, biological ones, tailored by millennia of genetic history. Ignoring this, leads to crashes.
+
+What is a proper schedule for our brain to learn and process information? Why can't we stay focused for 8 hours? What is the impact of sleep and naps? What is the impact of physical activity in our daily lives? How does TDD Fit in that process ?
+
+In this talk we will see how much modern workplaces and schedules are disconnected from our biology, how we can change little things to avoid big crashes, work better and be happier.",
+14,Community from the Front Lines,I'd love to talk about what it's like to work in community management and what's been going on in the Ruby community.,"# Community From The Front Lines
+
+Ruby has one of the most unique and volatile communities in all of the programming world. Most recently, a number of social issues have come to light that have had a dramatic effect on the health of our community. This talk will look back at how the Ruby community has progressed in the past couple of years, where it has failed us and where it has pushed us forward. I will cover its progress (such as the aggressive effort to educate and train women with programs like RailsBridge and Rails Girls), setbacks (such as a continuing aggression toward minorities) and how the community can grow and improve.",
+15,Ruby Groups: Act Locally - Think Globally,...y,"# Ruby Groups: Act Locally - Think Globally
+
+There are thousands of local Ruby groups worldwide. Sadly, many suffer along, become stagnant, some even die off. How can you make your local Ruby Group better and in so doing, improve the global Ruby Community?
+
+This talk focuses on the human side of getting a group together and making it successful so the members, as a group can contribute to the larger community. It is a universally useful guide to improving all parts of the ruby community, starting on a local level.",
+16,"Fast, JSON-API-compliant, and ready for Ember Data",',"# Fast, JSON-API-compliant, and ready for Ember Data
+
+We love Rails. We love Sinatra. We love snappy applications.
+
+[Ember.js](http://emberjs.com/) is carrying the convention-over-configuration torch forward from Rails into client-side MVC-land, and a big part of that convention is about standardising our JSON APIs.
+
+The Ember.js data-persistence library, known as Ember Data, implicitly specifies an API that it 'expects' - an API that will require no configuration by the Ember application. [JSON API](http://jsonapi.org/) is the name given to that specification.
+
+This talk is about demonstrating different approaches for developing JSON-API compliant APIs in Ruby, hooking the APIs up to a basic Ember.js app, and contrasting the performance and maintainability of each API implementation.",
+17, An Ode to 17 Databases in 39 minutes,"A detailed, deep-diving, in-the-deep-end and occasionally humorous whirlwind introduction and analysis of a suite of modern (and sometimes delightfully archaic) database technologies. ","# An Ode to 17 Databases in 39 minutes
+
+A detailed, deep-diving, in-the-deep-end and occasionally humorous whirlwind introduction and analysis of a suite of modern (and sometimes delightfully archaic) database technologies. How they work, why they work, and when you might want them to work in your Ruby and Rails application. 
+
+At no extra charge I will also attempt to explain the oft-misunderstood CAP theorem, using databases as a device for understanding the trade offs and compromises inherent in building complex distributed systems.
+
+Including but not limited to:
+
+- PostgreSQL
+- Redis
+- Cassandra
+- Hyperdex
+- MongoDb
+- Riak
+- Animated Gifs
+
+The goal of the talk is to shed light on the wide range of options outside of the ""traditional"" PostgreSQL or MySQL. Ruby on Rails has a rather myopic focus on particular patterns of database interaction and technology on which lead developers to overlook other tools that may be really well suited for particular use-cases.
+
+This talk is loosely based on my (award winning) Lightning Talk presented at the 2013 Australian Ruby Conference ""An Ode to 17 databases in 5 minutes"".
+A 30 minute version was presented at the September 2013 Rocky Mountain Ruby Conference in Boulder, Colorado to wild acclaim (or at least some mildy positive feedback).",
+18,Hitchikers guide to UXing without a UXer,A 'Douglas Adams' style quick-start guide for developers to help them keep the greatness in their product and ideas without having a designer or UXer on staff. ,"# Hitchikers guide to UXing without a UXer
+
+Sometimes you are tasked with building great things by yourself or in a small team. Bootstrapped start-ups don’t always have the budget for a dedicated UXer to help you design the best apps, software or websites. So how do design great things without a UXer? 
+
+This is not a definitive guide or to even to be used instead of getting professional UX help but it will get you started developing the right way and stop you making classic mistakes. Before you even consider touching your dev environment I will show you how to “Start with one idea”, “Think like a user” and set out your user journeys. From this solid foundation I will show you how to wireframe your logic and build a rough protoype. 
+
+We then consider how to evaluate and iterate on your designs and what tools you can use. Finally, I outline the importance of never being afraid to scrap anything which doesn’t work. All without a single line of code being written. 
+
+Save your development time and build greatness into your product.",
+19,How To Win Designers And Influence Developers,"This talk is about ways to hack your team for a more efficient, productive and ultimately happier existence. That's the good news. The bad news is hacking your team starts with hacking yourself.","# How To Win Designers And Influence Developers
+
+This talk is about ways to hack your team for a more efficient, productive and ultimately happier existence. That's the good news. The bad news is hacking your team starts with hacking yourself.
+
+In 1936, Dale Carnegie published a book called ""How To Win Friends And Influence People"". You may have heard of it. In 1989, Stephen Covey published ""The 7 Habits Of Highly Effective People"". I was 6 years old.
+
+What can these old books (and others) teach us about working as part of a modern software team today?
+
+A hell of a lot, actually.
+
+We'll look at some of the hacks, I mean techniques, raised in these books and investigate how they apply in the modern software team.",
+20,Real Developers Ship,"In which we explore the tenets of a small team inside Envato who changed the way they work in order to deliver better and faster, and how you can too. Among other things, we'll cover continuous deployment, paying the refactor cost upfront, staying lean, and testing in production.","# Real developers ship (a.k.a Tenets for software delivery)
+
+Not too long ago, a small group of developers inside Envato embarked on a mission: take an idea, and turn it into something real. To accomplish this goal, they didn't just have to build the product, but change the way they were writing and shipping code as well. In the end, the way they were delivering was radically different to anything they'd ever done before. The result? Mission accomplished.
+
+This talk explores the core tenets of the team's delivery process, and explores the reasons behind the decisions that were made. It mixes anecdotes with practical examples, showing how changing the way you think can really help get things done.
+
+Some of the tenets in the talk include:
+
+* Level up your CI to continuous deployment
+* Time is valued above all
+* Staying lean with YAGNI
+* Pay the refactor cost upfront
+* Testing is best done in production
+* Do things that don't scale
+* Living on the bleeding edge
+* The only way to move is forward
+
+After listening to this talk, you will know how easy it is to introduce these principles into your Rails app. You'll be armed with ideas of what you can take home to your team, in order to deliver better and faster than before.",
+21,I've got your number: Machine Learning in Ruby.,"An introduction to ML, including a demo, working code and libraries available to Rubyists ro explore this world.","# I've got your number: Machine Learning in Ruby
+
+Would you like to do some OCR using Ruby and learn some
+machine-learning along the way?
+
+In this talk, first up, we'll have a quick demo where an attendee
+scribbles a number on a sticky note and a Ruby program tries
+to recognize it. Then we'll pick it apart, covering:
+
++ the basics of machine-learning (and different applications)
++ brief look into the Math behind supervised learning (classification)
++ (mostly) hand-rolled code applying this Math
++ libraries/tools available to Rubyists (and choice of Ruby platforms)
+ including:
+   + weka
+   + mahout
+   + libsvm
+   + Ruby `Matrix` class :)
+   + etc.
++ ways to dive deeper into ML
+
+You'll leave inspired to explore this new world of machine learning,
+pick up sought-after skills and have fun!
+
+PS: To add some variety, I'll employ the widely recognised but rarely
+heard (at Rubyconf AU) Indian accent.
+",
+22,Why Ruby/Elixir (culture) can make the difference in Software Development: A Behavioral Economics Reflexion,"### Why Ruby/Elixir (culture) can make the difference in Software Development: A Behavioral Economics Reflexion
+**Audience:** Rubysts and Software Developers at General
+How Behavioral Economics findings and principles can help us to reflecting in the relevance of Ruby/Elixir (culture) for Software Development.
+The presentation will be very interactive. The presenter will ask the participation of the audience to illustrate at real time and at live the BE principles. These principles will be use for reflecting about the relevance of Ruby/Elixir for the Software Development","# Why Ruby/Elixir (culture) can make the difference in Software Development: A Behavioral Economics Reflexion
+
+**Audience:** Rubysts and Software Developers at General
+
+## Description
+*Classical Economics* traditionally conceptualizes a world populated by agents calculating, unemotional maximizers bearing the name of Homo economicus. The classical economic ignores or dismisses virtually all human behavior studied by cognitive and social psychologists. The standard economic model of human behavior-realistic three features includes unlimited rationality, willpower and infinite selfishness without limits, all of which **Behavioral Economics (BE)** modifies it in a more *holistic* view based on *evidence* and *experiments*.
+
+Software craftsmanship is an approach to software development that emphasizes the coding skills of the software developers themselves vs the view of practitioners of the well-defined statistical analysis and mathematical rigor of an engineering approach with the connotations of predictability, precision, mitigated risk and professionalism. Dan North wrote: *""No-one wants your steenking (sic) software – they want the capabilities it gives them, and they want those yesterday""*. 
+
+Why Ruby and Elixir programming languages that are designed to make programmers happy have been hypothesized to be more effective in the long run because happy programers are more productive. But this is true? What other factors should be taken in consideration? The BE could offer some light to this based on the findings of the field as:
+  * Labor and Motivation: Meaning, IKEA effect, Not-Invented here bias, Cognitive Dissonance, Monetary/Social Stress and Performance.
+  * Self-Control: Difficulty with Self-Control, Reward Substitution, Ulysses Contracts
+  * Psychology of Money: Cost Opportunity, Relativity, Mental Accounting, Loss Aversion, Endowment Effect, Market and Social Norms
+  * Irrationality: Defaults, Preferences, Relativity, Long-lasting Effects of Decisions and Learning from our Mistakes
+
+This principles will be presented in a practical way and how we can take advantage of those to reflect about the relevance of Ruby for the Software Development.
+
+## Presentation Style
+The presentation will be very interactive. The presenter will ask the participation of the audience to illustrate at real time and at live the BE principles. These principles will be use for reflecting about the relevance of Ruby/Elixir for the Software Development",
+23,The Golden Age of the Internet,"Congratulations. The Internet is now the centre of civilisation as we know it, and _we_ are the ones who shape the Internet. Our skills are in high demand, we are paid well, we find our work challenging, interesting, and even sometimes fulfilling. These are the glory days of our industry, and we should soak up every minute of it!
+And let's ignore those storm clouds gathering on the horizon - with our talent, surely we will soar above them like Icarus towards the sun.","# The Golden Age of the Internet
+
+Congratulations. The Internet is now the centre of civilisation as we know it, and _we_ are the ones who shape the Internet. Our skills are in high demand, we are paid well, we find our work challenging, interesting, and even sometimes fulfilling. These are the glory days of our industry, and we should soak up every minute of it!
+
+But with such great power comes a great deal of responsibility. Will we be looking back in the near future, wondering if we squandered our opportunities to shape the digital world accordingly?
+
+There's no doubt that we value humanity, intelligence, and compassion. Let's take a look at the ways our industry can ensure these values are reflected not just in the people we are, but the way we work.",
+25,Engineering Words,,"# Engineering Words
+
+Code is communication.
+
+The more forms of expression we master, the better we can become as developers.
+Learning to compose effective prose will improving our ability to express ideas
+to developers and to construct better software.
+
+You are already great at using Ruby to communicate your ideas to other
+developers, and you use html and css to communicate with people using your site.
+
+I hope to help you become a better wielder of the written word in the form of
+blog posts.",
+26,The Art of Ruby by halogenandtoast.,"The Art of Ruby: A talk about code, art, and the search for balance between beauty and performance.","# The Art of Ruby
+
+We should all be artists in our craft, but there is a balance between expressiveness and performance. This talk is about finding that balance and producing beautiful code that doesn't sacrifice syntax for speed. I'll explore real world examples of code and mold them into something far more expressive. During the process, we'll take a look at how common design patterns are applied to larger applications and examine the repercussions.",
+27,State of JRuby 2014,JRuby talk proposal.,"# State of JRuby 2014
+
+JRuby is a fast implementation of the Ruby language on the Java Virtual
+Machine.
+
+You may wonder if it can be faster.
+You may have heard of the slow startup time. Can it load faster?
+You may have heard that your favorite C extension does not work on
+JRuby. What about cross-platform C extension API?
+
+This talk will discuss these questions.
+
+This year (2014), the project will release a major milestone:
+JRuby [9000](https://www.dropbox.com/s/sl2ujx1syt7kqzh/8000.mov) (仮).
+Main new features of this release include:
+  * Ruby 2.1 compatibility
+  * New compiler
+  * Better InvokeDynamic experience
+
+A JRuby core team member will discuss these topics.
+",
+28,The Dark Side of Ruby,Welcome to the dark side of Ruby and get en**light**ened.,"# The Dark Side of Ruby
+
+I love Ruby! But as in any relationship, to love means that you (often) have to accept the ""dark side"" too! Ruby is human in nature and has a lot of gotchas, tricks, wierdness and sometimes scary features that I plan to highlight. This talk aims to provide the ""Ah-ha!"" moments when working in Ruby.
+
+This talk is for beginners and experts alike - in fact, I tag slides to mark their level and beginners can choose to tune out of the heavy stuff! My talk shall cover the dark side of the following features of Ruby (in no particular order)
+
+* Keyword wierdness
+* method missing
+* Module inheritance! (huh?)
+* Accessor righteousness
+* Curried Procs for the hungry
+* Base Conversions
+* Cherry picking module methods
+* Oniguruma games
+* Object id wierdness
+* procs, blocks and our friend stubby.
+* ==, ===, eql? and equal?
+* and more...
+
+As with most of my talks, humour plays an important role and I shall aim to get everyone **high** on Ruby with a **deep** dive!",
+29,Fighting bugs with development hacks.,,"# Fighting Bugs with Development Hacks
+
+Bugs are an inevitable part of software development. We do our best to write higher quality software, but we never escape releasing bugs into production.
+
+Since we can't fully remove bugs, this talk will cover strategies, hacks and monkey patches in Ruby (and Rails) to prevent bugs from becoming a big disaster. I'll use examples from [Braintree](https://www.braintreepayments.com/), a payments company where mistakes cost real money, such as:
+
+- Ensuring that queries are scoped properly
+- Runtime consistency checks on data
+- Sanity specs to catch problems at development time",
+30,Programming Elixir: The magic of today's tonic,,"# Programming Elixir: The magic of today's tonic
+
+Elixir is a new arrival on the programming language scene but many of the features that have Rubyists talking about it are actually old favourites for functional fans. Pragmatic Programmer Dave Thomas has lauded the open-source language as a means of demonstrating functional programming concepts without being overly academic. Influenced by Ruby and Clojure, the dynamic language takes advantage of the battle-hardened Erlang ecosystem to simplify the creation of concurrent, distributed applications -- all with functional flair. This presentation will examine the spellbinding elements of Elixir and how developers can use them for their own sprinkling of open sorcery. ",
+31,Guide to Continuous Deployment with Rails,"Recently it has become common practise for development teams to deploy their code several times a day, as well as encouraging new developers to deploy on their first day at work.
+In our talk, we will discuss how we use continuous deployment to push these practises to the extreme. Automatically deploying the master branch on new changes is an awesome way to improve your development process.
+","# Continuous Deployment with Rails
+
+Recently it has become common practise for development teams to deploy their
+code several times a day, as well as encouraging new developers to deploy on
+their first day at work.
+
+In our talk we will discuss how we use continuous deployment to push
+these practises to the extreme. Automatically deploying the master branch on
+new changes is an awesome way to improve your development process.
+
+Automatically deploying master will fundamentally change how you work. Gone are
+the days of the epic pull request. You'll quickly find yourself writing smaller more
+manageable chunks of code, that overall have a great impact on the quality of the
+software you produce.
+
+By the end of the talk you'll know how to change the GitHub merge pull request
+button into a deploy button - and have the confidence to do so.
+
+Some things we'll go over in the talk:
+
+  * How to setup your CI environment for deployments
+  * Why having fast tests are important
+  * How to use your Staging environment for testing deployments
+  * How to use feature flags to hide deployed features from *some* users
+  * Zero downtime deploys, even when there are database migrations
+  * Your new deploy button, AKA The GitHub merge pull request button
+  * What to do when deployment goes wrong",
+32,Fast & Effective View Testing,"### Fast & Effective View Testing
+Many people use integration tests to check if an element is displayed or not, which is slow and cumbersome. Others use RSpec view specs, which end up creating duplicated code and scenarios.
+In this presentation Nigel will reveal a better solution. We will review the core problem and then examine a fast and consistent way of testing whether multiple elements are (or are not) displayed, based on a context.","# Fast & Effective View Testing
+
+Many people use integration tests to check if an element is displayed or not, which is slow and cumbersome. Others use RSpec view specs, which end up creating duplicated code and scenarios. 
+
+In this presentation Nigel will reveal a better solution. We will review the core problem and then examine a fast and consistent way of testing whether multiple elements are (or are not) displayed, based on a context.",
+33,Why 25% of your tests are useless and what you can do about it.,Proposal from Mario Gonzalez. Thanks!!,"# Why 25% of your test suite is worthless and what you can do about it.
+
+I present novel research that indicates that test suites for open source projects have an average of 25% redundancy, while those for closed-source projects have 40% or more. Redundant tests give teams the false sense of increased coverage. Further, they actually increase maintainability and running costs, while exposing the project to costly test escapes. Just as there is code that ""does the same thing,"" there are tests that ""test the same thing."" But how do you detect them? How do you find and deal effectively with them? This talk presents a solution: a free tool that quickly finds how redundant your test suite really is.
+Audience will learn:
+* The state of test suites in open-source projects, as well as in some closed-source projects.
+* How redundant tests increase the risk and cost of testing.
+* An introduction into several techniques to assess how good a test suite really is.
+* An introduction into the tool and how to use it in their projects.
+* Terminology and definitions used to communicate effectively about redundant tests across teams.",
+34,Objectify Your Forms: Beyond Basic User Input,,"# Objectify Your Forms: Beyond Basic User Input
+
+User input contains a lot of potential complexity. A simple CRUD form can turn into an
+unmaintainable mess when we introduce `accepts_nested_attributes_for` to deal with associations, validating first this model then that one, manually adding validation errors, and finally saving the whole thing.
+
+What if we could use good old object oriented design principles to make forms a pleasure to deal with? Form objects give us a much simpler way to build any sort of form we want that is straight forward to build, test, and maintain.
+
+We will build a complicated form using the default Rails helpers, and then we’ll rebuild it with a form object and let the audience decide which method they prefer.",
+35,Dev2DevOps - Intro to DevOps for developers,"High level intro to DevOps, its origins, its concepts, and its tools.
+Inspiration and guidance for developers wanting to start down the path to being
+DevOps literate.","# Dev2DevOps - Intro to DevOps for developers
+
+High level intro to DevOps, its origins, its concepts, and its tools.
+Inspiration and guidance for developers wanting to start down the path to being
+DevOps literate.",
+36,The Transformation Priority Premise for Productive TDD,"Almost all of us, ruby programmers, have understood the importance of the TDD discipline. The practice of TDD, however, isn't as straightforward as we would like. We frequently get stuck, not knowing what to test next, and how or when to generalize the code.
+In this talk, I will introduce the Transformation Priority Premise, and show how we can apply a little mathematical rigour to infer our testing paths, thus reducing or completely eliminating impasses.","# The transformation priority premise, for productive TDD
+
+Almost all of us, ruby programmers, have understood the importance of the TDD discipline. The practice of TDD, however, isn't as straightforward as we would like. We frequently get stuck, not knowing what to test next, and how or when to generalize the code.
+
+In this talk, I will introduce the Transformation Priority Premise, and show how we can use a little mathematical rigour to infer our testing paths, thus reducing or completely eliminating impasses.",
+37,Managing Bad Code,"Here's my proposal for a talk. Here's the short description:
+
+> Everybody writes bad code. Not everybody knows they write bad code. I'm going to talk with you about how I think we can identify, manage, and prevent bad code from entering your repo. This is a general software engineering talk that will use solutions based in Ruby, aimed at Ruby development teams (Rails and RubyMotion).","# Managing Bad Code
+
+Bad code sinks projects.
+
+Bad code makes maintaining old code bases expensive and demoralising for developers to work on.
+
+Bad code starts accumulating as soon as the first commit is made to the repo.
+
+Here's the short version:
+
+Everybody writes bad code. Not everybody knows they write bad code. I'm going to talk with you about how I think we can identify, manage, and prevent bad code from entering your repo. This is a general software engineering talk that will use solutions based in Ruby, aimed at Ruby development teams (Rails and RubyMotion).
+
+Here's the long version:
+
+- What is bad code? Where does it originate from?
+  - How does bad code come to be? Can't we all just be better developers? - A broad look at what bad code is and some of the causes of bad code
+  - Identifying bad code - A look at [code smells](http://www.codinghorror.com/blog/2006/05/code-smells.html)
+  - What are the costs? - A look at the obvious and not so obvious costs of bad code. A review of the [opportunity costs](http://en.wikipedia.org/wiki/Opportunity_cost) we deal with by accepting bad code.
+  - The uniform skill level problem - Not all developers code at the same level of skill. A guide to how we can accomodate that as a team.
+  - The uniform code quality output problem - Developers all have bad days. A guide to how we can deal with our bad days.
+  - Know thy enemy: Developers - You are your own worst enemy. How to accept that you are not perfect and hopefully embrace a more humble and open-to-learn attitude. Do you need an attitude re-adjustment?
+
+- How do we manage existing bad code?
+  - Band aids are best for small cuts - A discussion on why I think band aid solutions should be absolutely avoided when maintaining code. A look at when you may have to use a band aid solution.
+  - Refactoring is king - A look at how draconic refactoring should be used on older, less active code bases in order to rapidly and dramatically improve code quality
+  - [The boy-scout rule](http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule) - A look at the boy-scout rule and why I think developers packing it in on older code bases is bullshit.
+  - When to sever the limb - Is a complete rewrite ever called for? My experience with rewrites and why I think rewrites are often just a siren singing a song too good to be true.
+
+- How do we prevent bad code, moving forward?
+  - Refactoring:
+    - I think refactoring needs to become embedded in the development life cycle. I'll explain how and why!
+  - Code Reviews:
+    - A look at the benefits of code reviews and discussion as to why I think code reviews need to be prioritised in the development life cycle. I'll explain how and why!
+    - An overview of the various techniques (async vs sync, shallow vs deep, in person vs stuck to a wall etc)
+    - How To: Automatic using [Code Climate](https://codeclimate.com/)
+      - What kind of defects can Code Climate find?
+      - How can I leverage Code Climate to improve code quality?
+      - Is it worth it?
+    - How To: Manual using [GitHub's Pull Requests](https://help.github.com/articles/using-pull-requests)
+      - Building an informative description for your pull request to assist reviewers
+      - Reviewing other developers work - you're probably being an asshole. I will go through some of the most common pit-falls when reviewing other developers's code. I will also be talking about ways to maximise the code review process. Problems you should look out for and refactoring options you probably hadn't considered. Some tips on how you can learn to become an better reviewer (Trust me! There's a colossal amount of variance in skill levels in reviewers - not necessarily correlated with the developer's programming ability, either).
+  - Skill Development:
+    - This is a pretty cheesy topic. I'll provide a laundry list of textbooks that all developers should read and some other text books specific to Rails and RubyMotion developers. This will include the classics like Code Complete, Peopleware, Pragmatic Programmer etc, which I will be quoting and drawing inspiration from extensively in this talk. I'll also include some textbooks you may not expect to see on a software developer's booklist.
+  - Documentation will save your soul 6 months down the track:
+    - A discussion on the role of documentation. When to document, when not to document. Examples specific to Rails and RubyMotion projects.
+    - While you're here, why not [read my blog post on writing a good readme](http://blog.thefrontiergroup.com.au/2013/05/writing-a-good-readme/)?
+  - Using gems (or cocoapods!):
+    - A reminder to always look for a gem that is doing what you are trying to achieve. Code you don't write is code you don't have to maintain. There's a good chance the problem you're trying to solve is:
+      - Already solved
+      - Not as easy to solve as you think
+
+And more, depending on whether this talk gets selected!",
+38,AHAB: An HTTP Asset Bundler,"Introduction to the AHAB asset bundling protocol, its use in Rack applications, asset packaging in an HTTP 2.0 world, and using AHAB to try out code against production data.","# AHAB, An HTTP Asset Bundler
+
+A good package management system is integral to building reliable, living
+applications. The Ruby world is fortunate to have Rubygems and Bundler.
+
+Each such system tends to get very high adoption within its own language, but
+web applications are polyglot. Twitter-Bootstrap isn't written in Ruby, so
+the authors don't publish them as gems. Instead, we
+see a proliferation of *project*-for-*packaging sytem* wrappers:
+[bootstrap-sass-rails](https://rubygems.org/gems/bootstrap-sass-rails),
+npm's [bootstrap-sass](https://npmjs.org/package/bootstrap-sass),
+[Bootstrap-Maven](https://github.com/efsavage/Bootstrap-Maven),
+[components/bootsrap](https://github.com/components/bootstrap),
+[bower-bootstrap-less](https://github.com/jozefizso/bower-bootstrap-less).
+
+The AHAB philosophy is to move browser asset management to the one place all
+web projects already agree on: the HTTP layer. This talk covers the AHAB
+protocol and its usage in Rack applications, including both deploy-time- and
+runtime asset resolution.",
+39,Charming Large Databases with Octopuses,"You have a killer web application, hits are through the roof and your database is starting to get overloaded. Do I need to throw more hardware at the database? Should I shard it? Should I use replication? How do I access multiple databases via one Rails application? Join us as we talk about strategies for scaling your database. See how easy it is to use multiple databases with db-charmer and octopus when it is time to move beyond that one ubiquitous database instance in your app.","# Charming Large Databases With Octopuses
+
+You have a killer web application, hits are through the roof and your database is starting to get overloaded. Do I need to throw more hardware at the database? Should I shard it? Should I use replication? How do I access multiple databases via one Rails application? Join us as we talk about strategies for scaling your database. See how easy it is to use multiple databases with db-charmer and octopus when it is time to move beyond that one ubiquitous database instance in your app.",
+40,Finding things with Amazon Cloud Search and (Active)-Asari,"Amazon Cloud Search provides a powerful mechanism for adding search to your application…. It automatically sales things for you and indexes your data as you add thing. Integrating it with your Ruby application can be a challenge, especially in multiple environments. It has crazy domain names, and requires a lot of glue code to automate spinning up environments, and search operations. Thankfully we have Asari and Active-Asari to make that easier. Join us as we talk about search, tools you can use and how Asari and Active-Asari can make it more approachable when you need to move beyond database and solr based search in your application.","# Finding things with Amazon Cloud Search and (Active)-Asari
+
+Amazon Cloud Search provides a powerful mechanism for adding search to your application…. It automatically scales things for you and indexes your data as you add things. Integrating it with your Ruby application can be a challenge, especially in multiple environments. It has crazy domain names, and requires a lot of glue code to automate spinning up environments, and search operations. Thankfully we have Asari and Active-Asari to make that easier. Join us as we talk about search, tools you can use and how Asari and Active-Asari can make it more approachable when you need to move beyond database and solr based search in your application.",
+41,Building C extensions in Ruby,"From time to time, when building Ruby apps, you realise there are no libraries available for what you need. Even worse, Ruby doesn't quite perform as quickly as we would expect in certain areas. There are, however, a lot of high performance, mature technologies built in C that can easily be ported to be used with Ruby. By doing this, we get to keep using our favourite language, opening it to a plethora of applications that were not possible before, and still keep things snappy.
+In this talk, I will walk you through the ins and outs of building Spyglass, an OpenCV binding for Ruby. I will also talk in detail about some gotchas (memory management, lack of threading), good practices (C objects as first class citizens, how to properly test extensions), why `mkmf` needs to be retired and some great examples of extensions you probably already use and should be looking at.","# Building C extensions in Ruby
+
+From time to time, when building Ruby apps, you realise there are no libraries available for what you need. Even worse, Ruby doesn't quite perform as quickly as we would expect in certain areas. There are, however, a lot of high performance, mature technologies built in C that can easily be ported to be used with Ruby. By doing this, we get to keep using our favourite language, opening it to a plethora of applications that were not possible before, and still keep things snappy.
+
+In this talk, I will walk you through the ins and outs of building Spyglass, an OpenCV binding for Ruby. I will also talk in detail about some gotchas (memory management, lack of threading), good practices (C objects as first class citizens, how to properly test extensions), why `mkmf` needs to be retired and some great examples of extensions you probably already use and should be looking at.",
+42,Analytics for the busy ruby developer,"Our applications have the potential to produce a lot of data. Every time a user clicks a button, buys something, or our application does any number of things we have the opportunity to gain useful insights. But where do you begin? Should I gather every data point I can think of? What tools work the best? There is a lot of talk and hype about analytics. In this session, let's take a look at what goes into mining data and analyzing the insights. We'll discuss different approaches to gathering, storing, and querying data, how to determine the KPIs to focus on, and how to interpret and use information in meaningful ways. While you may not be a statistician, see how some basic statistics can help you to start to wrangle your data.","# Analytics For The Busy Ruby Developer
+
+Our applications have the potential to produce a lot of data. Every time a user clicks a button, buys something, or our application does any number of things we have the opportunity to gain useful insights. But where do you begin? Should I gather every data point I can think of? What tools work the best? There is a lot of talk and hype about analytics. In this session, let's take a look at what goes into mining data and analyzing the insights. We'll discuss different approaches to gathering, storing, and querying data, how to determine the KPIs to focus on, and how to interpret and use information in meaningful ways. While you may not be a statistician, see how some basic statistics can help you to start to wrangle your data.",
+44,GitHub Enterprise's toolchain,"Have you ever wonder what it takes to turn your SaaS into an On-Premise project? At GitHub, we've develop a series of tools to help us build, test and release GitHub Enterprise in a matter of minutes.
+
+This talk is about the internal infrastructure that we've built to support GitHub Enterprise. We'll talk about our testing cloud and how we do continuous integration for an on-premise product. We'll also talk about patterns that we've found useful and things that didn't work out that well. We'll show the tooling that makes all this possible and how it integrates with Hubot to allow the Enterprise team to collaborate.
+","# GitHub Enterprise's toolchain
+
+Have you ever wonder what it takes to turn your SaaS into an On-Premise project? At GitHub, we've develop a series of tools to help us build, test and release GitHub Enterprise in a matter of minutes.
+
+This talk is about the internal infrastructure that we've built to support GitHub Enterprise. We'll talk about our testing cloud and how we do continuous integration for an on-premise product. We'll also talk about patterns that we've found useful and things that didn't work out that well. We'll show the tooling that makes all this possible and how it integrates with Hubot to allow the Enterprise team to collaborate.",
+45,Tales Of Interest,"So you want to be an open source contributor? Think you can handle supporting
+multiple rubies, tracking down weird bugs, stomaching all that the wider developer
+eco system can throw at you? Well good reader, I can tell you stories that will
+turn your stomach, and blind your eyes.
+
+Let me take you on a journey deep into the depths of open source triage and
+follow the kind of madness that comes from tracking down bugs across differing
+versions of Ruby and VMs.
+
+Finally let me entertain you with stories of the perils of dogfooding your
+testing framework, and throw in some stories about the kind of hackery you
+can commit with a bit of mischievousness.","# Tales Of Interest
+
+So you want to be an open source contributor? Think you can handle supporting
+multiple rubies, tracking down weird bugs, stomaching all that the wider developer
+eco system can throw at you? Well good reader, I can tell you stories that will
+turn your stomach, and blind your eyes.
+
+Let me take you on a journey deep into the depths of open source triage and
+follow the kind of madness that comes from tracking down bugs across differing
+versions of Ruby and VMs.
+
+Finally let me entertain you with stories of the perils of dogfooding your
+testing framework, and throw in some stories about the kind of hackery you
+can commit with a bit of mischievousness.",
+46,The Ethical Programmer,"Programmers have great power to shape our world. Other professions have ethics boards and revocable professional licenses to bring responsibility to that power. We do not. Therefore, we must educate ourselves in ethical thinking.
+This talk covers methods in ethics both historical and modern. It then applies those methods to some recent problems. Possible thorny issues include:
+ * triage and bug fixing
+ * visualization of data: Customer Satisfaction reports
+ * features with negative externalities: LinkedIn Intro
+ * prioritization: the best minds of our generation optimizing ad-revenue","# The Ethical Programmer
+
+Programmers have great power to shape our world. Other professions have ethics
+boards and revocable professional licenses to bring responsibility to that
+power. We do not. Therefore, we must educate ourselves in ethical thinking.
+
+This talk covers methods in ethics both historical and modern. It then applies
+those methods to some recent problems. Possible thorny issues include:
+
+ * triage and bug fixing
+ * visualisation of data: Customer Satisfaction reports
+ * features with negative externalities: LinkedIn Intro
+ * prioritisation: the best minds of our generation optimising ad-revenue",
+48,Standing on the shoulders of giants,"We take for granted the wealth of knowledge and wisdom that goes into each library we use within our programs. Many of the them we use today are built on top of libraries that have existed much longer than most of us have been programming in Ruby.
+Allow me to guide you through some of these unusual and mysterious libraries that are made available in every Ruby installation. I'm talking about the standard library, which has largely been apart of the Ruby ecosystem since before gems were available.
+There's around ~70MB of code in every installation, and it's just waiting for those eager to explore and discover what the pioneers of Ruby have provided for us.","# Standing on the shoulders of giants
+
+We take for granted the wealth of knowledge and wisdom that goes into each library we use within our programs. Many of the them we use today are built on top of libraries that have existed much longer than most of us have been programming in Ruby.
+
+Allow me to guide you through some of these unusual and mysterious libraries that are made available in every Ruby installation. I'm talking about the standard library, which has largely been apart of the Ruby ecosystem since before gems were available.
+
+There's around ~70MB of code in every installation, and it's just waiting for those eager to explore and discover what the pioneers of Ruby have provided for us.",
+49,Beyond the Monorail: Rails' place in the future of web development,My proposal for the super rad RubyconfAU 2014 woo!,"# Beyond the Monorail: Rails' place in the future of web development
+
+The nature of the web is shifting, and the time where Rails was a one-stop-shop for most web applications has passed. At the same time, the complexity of front-end web development has exploded, and Rails developers are finding themselves only solving one part of a wider problem.
+
+This talk is about the wider web development landscape, where it's headed, and how Rails fits in. We'll look at the increasing demands of ambitious web apps, the new projects Rails developers should be aware of, and which areas Rails and Ruby still reigns supreme.",
+50,MRI Magic Tricks,"Join me as we dive under the hood and take a rip-roaring tour of the internals of Ruby's canonical implementation.
+This talk will have you hanging on the edge of your seat as we push the very limits of the Ruby language and take advantage of a few interesting bugs to do things you never thought were possible.
+You'll laugh, you'll cry, and hopefully you'll come away from this talk with some fresh knowledge on just what makes Ruby tick.
+","# MRI Magic Tricks
+
+Join me as we dive under the hood and take a rip-roaring tour of the internals of Ruby's canonical implementation.
+
+This talk will have you hanging on the edge of your seat as we push the very limits of the Ruby language and take advantage of a few interesting bugs to do things you never thought were possible.
+
+You'll laugh, you'll cry, and hopefully you'll come away from this talk with some fresh knowledge on just what makes Ruby tick.",
+51,Ruby is not for Entrepreneurs,"So one day I had this brilliant idea _'If I could spin up a bunch of free instances on Amazon, and run everyones codes on there, I could make a Continuous Integration service that doesn't suck'_ (2010) — this was actually one of the stupidest ideas I've ever had, and this talk will teach you how not to have such stupid ideas, and how not to use Ruby to build your grand Entrepreneurial ideas for a startup.","# Ruby is not for Entrepreneurs
+
+In the Ruby Community there are a lot of Entrepreneurs building amazing things, maybe because Ruby makes developers happy, or because the tooling make you more productive, either way I turned out to be one of them and lined myself up for failure.
+
+This is the story of why quitting my day job and building a distributed Continuous
+Integration service in Ruby was a bad idea and where it all went wrong, and how you can stop yourself making the same mistakes even on the project your building right now.",
+52,How I architected my big Rails app for success!,,"# How I architected my big Rails app for success
+
+Rails is a great framework for creating web apps... for awhile. What do you do when your codebase grows large? How do you handle large teams of developers? When performance becomes an issue, how do you scale? Most importantly, how do you write code which can easily be refactored later?
+
+This is a story of a real life project built from day 1 with all these questions in mind. Learn about the problems we solved and lessons we learned: how to partition your Rails app into distinct modular engines, how to speed up your test suite by only running code effected by your changes, how to add a layer on top of ActiveRecord to enforce loose coupling, and many other patterns that can be applied to your own Rails apps!",
+53,Can Ansible Replace Capistrano?,"Ansible can be used for configuration management like Chef and Puppet. It can also be used for application deployment like Capistrano.  
+
+In this talk, we will investigate the advantages of using one tool for configuration management and application deployment.","# Can Ansible Replace Capistrano?
+
+[Ansible](http://www.ansibleworks.com/) can be used for configuration managment like Chef and Puppet. It can also be used for application deployment like Capistrano.  
+
+In this talk, we will investigate the advantages of using one tool for configuration management and application deployment.
+
+Are all the Capistrano features available in Ansible? How do I convert my recipes to Ansible playbook? These are some of the questions we will answer during the talk.",
+54,Battlefield: Legacy Applications,"# Battlefield: Legacy Applications
+Let me take you on a journey of maintaining a 'mission critical' legacy application, a huge refactoring, and a happy ending. We will come across pitfalls, duct tape, architectural and organisational issues. Although you'll feel a little bit dirty at the end, there won't be any SOAP.
+#### Background
+This talk is based on my experience of the past 18 months working with [Bulletproof](http://www.bulletproof.net) in Sydney. I inherited an Rails application that had grown from a single purpose app to the company's CRM application, under the pressure of a rapidly growing business.
+As if this wasn't challenging enough, the CRM application had been built on top of another legacy Perl system that dates back more than a decade ago. Although these mostly internal applications don't experience much load, they are still very critical to Bulletproof's business. ","# Battlefield: Legacy Applications
+
+Let me take you on a journey of maintaining a ""mission critical"" legacy application, a huge refactoring, and a happy ending. We will come across pitfalls, duct tape, architectural and organisational issues. Although you'll feel a little bit dirty at the end, there won't be any SOAP.
+
+#### Background
+
+This talk is based on my experience of the past 18 months working with [Bulletproof](http://www.bulletproof.net) in Sydney. I inherited an Rails application that had grown from a single purpose app to the company's CRM application, under the pressure of a rapidly growing business.
+
+As if this wasn't challenging enough, the CRM application had been built on top of another legacy Perl system that dates back more than a decade ago. Although these mostly internal applications don't experience much load, they are still very critical to Bulletproof's business. ",
+55,The 7 Habits of Highly Effective Coders,,"# The 7 Habits of Highly Effective Coders
+
+Inspired by the book, [The 7 Habits of Highly Effective People](http://www.amazon.com/The-Habits-Highly-Effective-People/dp/0743269519), this talk will cover 7 habits that great coders often employ (or perhaps should employ) when working professionally or for fun.
+Covering the technical to the social and the psychological, the 7 Habits of Highly Effective Coders will help coders deliver great code, stay focused, remain highly employable
+and maintain a good code-life balance.
+
+_Be warned, some of these habits might not be what you expect!_",
+56,Testing Mobile apps with Ruby,,"# Testing Native Mobile Apps with Ruby
+Testing is so ingrained in our culture we have it down to Scientific Formula:  
+
+_Testing + Methods = RSpec_
+
+_Testing + Web Apps = Capybara & Selenium_
+
+_Testing + Native Mobile Applications = ... What!?_
+
+Wouldn't it be great to be able to test native mobile apps using familiar tools and processes?  Yes.  Yes it would.  Which is what tools like [Appium](http://www.appium.io) are all about.
+Let's take a course in how Appium makes testing native mobile apps as easy as testing web apps (_psst: It's just Selenium_).  We'll explore how Appium works, how to get your apps ready for testing, and best practices for running mobile tests.",
+57,The Mysterious Fog Particles,,"# The Mysterious Fog Particles
+
+Fog particles are mysterious - they're in front of us in our code and we can't see them! Fog particles corrupt our code and often unknowingly we add lot of them in our code. What's worse is that when we identify them in our ""cloudy source code"", we can't get rid of them easily. 
+
+This talk is about, 
+* What are these mysterious fog particles?
+* How do we add these fog particles to our code without realizing it?
+* How can we indentify and remove them?
+* How can we make our code cleaner and less complex?
+
+Generally these mysterious fog particles are complex code snippets that are generated by our own (bad) coding practices, thereby spoiling our code quality.  I am going to walk you through different gems that can smell out these mysterious fog particles in our code and discuss various coding practices to avoid creating fog particles and ways to reduce these particles and ultimately turn a bad code into a good one.",
+58,Rack - A Framework to roll your own,,"# Rake : A Framework to Roll your own
+
+What is common between Rails, Sinatra and numerous other Ruby frameworks?
+
+They are built on top of Rack or have Rack interfaces for allowing application servers to connect to them.
+
+A deep-dive of sorts on Rack and see what it takes to build a framework, helping us understand these better and ultimately rolling our own.
+
+Almost anyone doing a Ruby app ends up using Rack in one way or the other without ever realizing the magic and simplicity that it provides. This session should help decoding that and provide ways on writing your own frameworks.",
+59,Design apis service better,My proposal for RubyConf Australia 2014,"# Design APIs Service better
+
+Recently more and more backend servers are built to provide http api, to serve rich javascript application, ios and android apps. So it's important to define the http apis between server developers and client developers, between companies and third party developers.
+
+This talk will show you how to design a better api service, including authentication, versioning, error handling, etc.",
+60,Responsible Security Reporting and Disclosure: Why and How?,"We all have been through this; Someone uploaded a exploited gem to RubyGems just to show that RubyGems has a security issue, someone posted an issue on GitHub just to get an attention from the core team members, someone post a link to a Gist on how to exploited something on Hacker News just to prove that it's possible, or someone just cut a security release without a proper security advisory on Friday evening when everybody left their work.
+
+As a community, I believe that we can be better than this. We can all learn together on how to do security reporting and disclosing in a right way. Be responsible, polite, and respectful to everyone so that we're not ruining anyone's day when a vulnerability has been exposed.","# Responsible Security Reporting and Disclosure: Why and How?
+
+Zero day vulnerability! Security release! Update now! Everybody hates to see a
+release announcement with those words in it, especially when they can't do
+anything until the official release is out. As a community, we should learn how
+to report a security issue in the right way, and also how to correctly release
+a patched version out to the public so that it will affect others as little as
+possible.
+
+This talk will cover various toptic regarding security reporting and
+disclosing, and why you should do it right. I'm going to talk about how to
+report security vulnerability you've found, how to contact the maintainer of
+the gem, how to submit a patch discreetly, and how not to do a security report.
+For the disclosure, I'm going to talk about how to respond to the
+reporter, how to obtain a CVE for the vulnerability, where should you do a
+security announcement, and how you should release your fixes.",
+61,Beyond Platform As A Service (PaaS),"When it comes to deploying web applications most Rubysts turn to Plaform as a Service (PaaS) solutions like Heroku and Engine Yard which is cool, but it has it's limitations. Let's level up!
+In this session I am going to show you how to roll your own IaaS cloud environment for maximum flexibility and control. I will use the popular fog gem to demonstrate how to do the following:
+Create a server
+Configure this server with chef
+Configure a load balancer
+Configure a custom network
+Along the way, I will demonstrate how fog works and provide you with a sample template that can be applied to all of your projects.","# Beyond Platform As A Service (PaaS)
+
+When it comes to deploying web applications most Rubysts turn to Plaform as a Service (PaaS) solutions like Heroku and Engine Yard which is cool, but it can limit the gems and external processes you can use. Let's level up! 
+
+In this session I am going to show you how to roll your own IaaS cloud environment for maximum flexibility and control. I will use the popular fog gem to demonstrate how to do the following:
+
+* Create a server
+* Configure this server with chef
+* Configure a load balancer
+* Configure a custom network
+
+Along the way, I will demonstrate how fog works and provide you with a sample template that can be applied to all of your projects.",
+62,Dear Everyone: Let's Contribute to Open Source!,"It has been a while since I started contributing to open source, and I have to say that the starting process is not really that smooth. Every time I'm giving a talk at several places, people was keep asking me on how I started contributing to an open source. I believe There are a lot of things you need to do to get started, and you might probably get tired of it and give up if you didn't get it right the first time. I'd like this talk to encourage and inspire more people to contribute to an open source project, by giving them the idea on how to get started and how it should be done.
+Also, as a maintainer of two gems, I think I would like to spread the word as well on how to lower the barrier to contribution. That way, new people could easily get started when they wanted to contribute back to the community, like I did.","# Dear Everyone: Let's Contribute to Open Source!
+
+Hey You. Yes You. How long has it been since you started using Ruby? It has
+been a while, right? And you think it's time for you to giving back to the
+community, right? Great, let's talk!
+
+In this talk, we'll discuss about the ultimate question: ""How can I contribute
+to an Open Source"". I'll tell you about how to properly started contributing to
+a project, how to find something to do, how to write a good patch that will
+make the maintainers fall in love with you (or, say, merge your patch in), and
+what not to do while submit your patches. Also, if you have your own gem, I'm
+going to talk about what you should do to make the contribution process easier,
+lowering the barrier to entry, and how to make the contributor constantly
+contributing to your project.",
+63,Building for iOS and OS X with Ruby (RubyMotion is Awesome!),"The world of developing iOS and OS X applications can be a scary one. Objective-C is a bizzare looking language for most Ruby developers, Xcode is a complex tool and learning to use all the parts you need can be really hard, and then there is the frameworks... THERE IS SO MANY OF THEM!
+We can get past this though, and bring our amazing Ruby skills to make things for those shiny Apple products we love so much. RubyMotion has opened up a whole new world of opportunities, and it's terminal workflow means you get to avoid Xcode for almost everything. All that's left is for me to show you how to get setup, show you the tools, give you an introduction to the frameworks and wrappers we can use, and show you places to learn more.","# Building for iOS and OS X with Ruby (RubyMotion is Awesome!)
+
+The world of developing iOS and OS X applications can be a scary one. Objective-C is a bizzare looking language for most Ruby developers, Xcode is a complex tool and learning to use all the parts you need can be really hard, and then there is the frameworks... THERE IS SO MANY OF THEM!
+
+We can get past this though, and bring our amazing Ruby skills to make things for those shiny Apple products we love so much. RubyMotion has opened up a whole new world of opportunities, and it's terminal workflow means you get to avoid Xcode for almost everything. All that's left is for me to show you how to get setup, show you the tools, give you an introduction to the frameworks and wrappers we can use, and show you places to learn more.
+
+## Jack Watson-Hamblin (a.k.a FluffyJack)
+
+Jack spends most of his days contracting with agencies and companies building all kinds of goodies for all sorts of platforms. He is currently contracting to NBN Co, the company behind the National Broadband Network rollout, on their continuous improvement team for the website and online forms.
+
+He has recently begun creating screencasts about his adventures with RubyMotion, and has found a small group of 20 subscribers together to help him get the screencasts focused on the important topics and on important ""features"" of the screencast, like every episode being done using behavior driven development.
+
+![Profile picture](https://raw.github.com/FluffyJack/rubyconfau-2014-cfp/master/talk-jack_watson_hamblin-building_for_ios_and_osx_with_ruby_rubymotion_is_awesome/profile_picture.jpg)
+
+- [My website](http://www.fluffyjack.com)
+- [My twitter](https://twitter.com/FluffyJack)",
+64,Go for the Rubyist,"Why are so many Rubyists buzzing about Go? This hot new language that grew out of Google just a few years ago is taking the world by storm and is generating a lot of buzz in the Ruby community.
+In this talk we'll look at the highlights of Go and try and figure out what the hype is all about, and we'll do with a keen Rubyist eye. We'll also look at where it would make sense in our Ruby/Rails projects to extend them with this highly concurrent, and performant language.
+What do you say my fellow Rubyists; are you up for the challenge of learning something a bit different?","# Go for the Rubyist
+
+Why are so many Rubyists buzzing about Go? This hot new language that grew out of Google just a few years ago is taking the world by storm and is generating a lot of buzz in the Ruby community.
+
+In this talk we'll look at the highlights of Go and try and figure out what the hype is all about, and we'll do with a keen Rubyist eye. We'll also look at where it would make sense in our Ruby/Rails projects to extend them with this highly concurrent, and performant language.
+
+What do you say my fellow Rubyists; are you up for the challenge of learning something a bit different?
+",
+65,Security Engineering in Ruby,"Believe it or not, proper application security isn't just for banks or the NSA. Recent high-profile attacks have cost web companies millions of dollars and thousands of users. These attacks beg the question, how should you protect your business and customers? You are probably salting your hashes and encrypting your traffic already, but there are much more fundamental elements of Ruby application security that you should employ throughout the development process.
+
+Rather than dive into specifics like what-is-ssl or what-is-the-most-secure-hash-function, I will cover the most important tenets of security engineering such as educating your team, identifying attack surfaces, and utilizing the principle of least privilege--just to name a few. After explaining why a tenet is vital, I will show you how to apply it to your Ruby development processes.","# Security Engineering in Ruby
+
+Believe it or not, proper application security isn't just for banks or the NSA.
+Recent high-profile attacks have cost web companies millions of dollars and
+thousands of users. These attacks raise the question, how should you protect your
+business and customers? You are probably salting your hashes and encrypting your
+traffic already, but there are much more fundamental elements of Ruby application
+security that you should employ throughout the development process.
+
+Rather than dive into specifics like what-is-ssl or
+what-is-the-most-secure-hash-function, I will cover the most important tenets of
+security engineering such as educating your team, identifying attack surfaces,
+and utilizing the principle of least privilege--just to name a few. After
+explaining why a tenet is vital, I will show you how to apply it to your Ruby
+development processes.
+
+This talk is aimed at Ruby developers of any level. You will come out of this
+talk knowing the core principles of security engineering and how to bring this
+knowledge back and implement on your dev team.",
+66,Intro to Graph Databases,"Graph databases have increasingly become more popular when operating on highly interconnected data sets such as social network graphs and data powering recommendation engines.
+Working with Ruby and some of the more popular graph databases, we will cover the definition of a graph database and explore some common scenarios in which graph databases can really shine over their traditional SQL and noSQL counterparts.","#Intro to Graph Databases
+Graph databases have increasingly become more popular when operating on highly interconnected data sets such as social network graphs and data powering recommendation engines.
+
+Working with Ruby and some of the more popular graph databases, we will cover the definition of a graph database and explore some common scenarios in which graph databases can really shine over their traditional SQL and noSQL counterparts.",
+67,Writing Games with Entity Systems and JRuby,"Entity Systems are a relatively new style of software development that came out of the game industry to avoid some of the common architectural pitfalls of Object Oriented programming when developing games, and attempt to provide a much cleaner separation between aspects such as rendering, physics, AI and other parts of a game's ecosystem.
+In this talk we'll live code a simple game with JRuby and libGDX and provide it with some interactivity and physics so you can get a feel for how Entity Systems work, and inspire you with your own game architectures.  Not only limited to games, this talk should also make you think about how you design other types of software that have a view layer powered by a highly dynamic data set.","#Writing Games with Entity Systems and JRuby
+Entity Systems are a relatively new style of software development that came out of the game industry to avoid some of the common architectural pitfalls of Object Oriented programming when developing games, and attempt to provide a much cleaner separation between aspects such as rendering, physics, AI and other parts of a game's ecosystem.
+
+In this talk we'll live code a simple game with JRuby and libGDX and provide it with some interactivity and physics so you can get a feel for how Entity Systems work, and inspire you with your own game architectures.  Not only limited to games, this talk should also make you think about how you design other types of software that have a view layer powered by a highly dynamic data set.",
+68,Teach Your Way To Better Code.,How teaching everything you know actually makes you a better developer.,"# Teach Your Way To Better Code
+
+You may have this vague sense that you don't know Ruby as well as you think you do.
+And you worry that you're not learning and growing as a developer in your day job
+as much as you did when you first picked up Ruby. Perhaps you've lost that spark
+of excitement you experienced when you discovered new ways to solve problems with Ruby.
+
+There is a way to re-invigorate your code and coding practices. Teach everything you know.
+
+This talk will focus on some of the principals of teaching and why it can be an effective
+tool, not only for others to learn, but for you as the teacher to really deepen your
+knowledge of the subject. It will be specifically centered around using Ruby, and some of
+the ways I have discovered work well for teaching it as a first programming language.",
+69,Event Based Programming with Vert.x and JRuby,"[Vert.x](http://vertx.io/) is a polyglot, lightweight, high performance application platform for the JVM that provides a non blocking, asynchronous event based programming model in a simple and scalable way.
+In this talk we will look at how you can take your regular Ruby code and Gems and combine them with Vert.x's module system to build a highly concurrent system without leaving your favourite language.
+","#Event Based Programming with Vert.x and JRuby
+[Vert.x](http://vertx.io/) is a polyglot, lightweight, high performance application platform for the JVM that provides a non blocking, asynchronous event based programming model in a simple and scalable way.
+
+In this talk we will look at how you can take your regular Ruby code and Gems and combine them with Vert.x's module system to build a highly concurrent system without leaving your favourite language.",
+70,Using Rubytus to power resumable file uploads for your API,Using Rubytus to power resumable file uploads for your API,"# Rubytus: Resumable File Uploads with Tus.io
+Users want to share more and more photos and videos. But mobile networks are fragile. Platform APIs are a mess. Every project builds its own file uploader. [Tus.io](http://tus.io) is an open protocol to fix the mess that developers are facing developing APIs for mobile.
+
+Rubytus is a ruby gem, built by the team at [PicoCandy](http://picocandy.com), that implements the tus server protocol built on top of Goliath, a non-blocking (asynchronous) Ruby web server framework.
+
+Resumable file upload should just work in the 21st century and developers shouldn't have to worry resuming file uploads from their web and mobile apps. In the 45 minutes that I has, I will introduce the Tus protocol and talked about the development of Rubytus. Finally, I will show how you can integrate Rubytus into your API using [Grape](https://github.com/intridea/grape).
+",
+71,Search and You Will Find,"Resubmitting just to make things easier.
+![fist-bump](https://f.cloud.github.com/assets/126967/1445380/3a826358-421f-11e3-9aa7-0e24bb578071.gif)
+","## Search and You Will Find
+### Information Retrieval in your web app
+In modern applications, search is becoming a feature which users come to
+expect. Not only that, having been spoiled by google pouring money at the
+problem of search, users expect search to perform well.
+
+Being rubyists and not information retrieval specialists, it can be hard to work
+out why our chosen search solution doesn't work like we expect it to. Be it Sphinx, 
+Solr, ElasticSearch, Postgres fulltext or `SELECT ... LIKE` queries that's not
+always our jam and it can seem a bit like a dark art.
+
+This talk goes into some first principles of information retrieval and at the
+other end we will have a firm grounding in how to apply these practically to
+whatever search solution you use to improve the experience of your users.
+
+We'll use real-world examples, do some live demos and work through some user
+stories in our journey towards better search.
+
+Topics include:
+ - Recall vs precision
+ - Useful measures of quality
+ - Tokenisation and analysis
+ - Autocomplete/Typeahead
+ - Ranking and scoring
+ - Query parsing
+ - Filtering
+ - Context awareness",
+72,First Commit: Getting into open source,"![nodding](https://f.cloud.github.com/assets/126967/1445387/5a7c9994-421f-11e3-8543-dab3e66534f7.gif)
+","## First Commit:
+### Getting into open source
+
+Open source software is a wonderful thing, but it's a daunting idea as you
+start out. In this talk we'll look at different ways of getting into open
+source and how to do it well.
+
+There will be stories about how prominent open source contributors started out,
+and feedback from project maintainers. We'll also take time to cover open source
+ettiquette and how to make the most valuable contributions no matter whether
+you're a green horn or an old hand.",
+73,Hammer People,"![tumblr_md1tjfyr3b1qgqj2zo1_500](https://f.cloud.github.com/assets/126967/1445394/905c101c-421f-11e3-8861-87a2168f9230.gif)
+","## Hammer People:
+### Things I've Learned From Talking to Rubyists
+
+Rubyists are an interesting bunch. Even in our name is an interesting fact: we
+identify ourselves by our tool. It's like calling ourselves hammer people.
+
+In this talk, we'll look at some of the things about the Ruby community that
+make it a wonderful community and some things that we could do to work on.
+Based mostly on stories and from interviews collected in the last year, we'll
+be embracing what it is to be a Rubyist, and how that might change.",
+74,Freelancing and Open Source talk proposal,"Software freelancing can be a great deal of fun but it can also be all consuming.
+The ability to work as much or as little as you need to can lead to extremes in each direction, either at the cost of profitability or at the exclusion of any open source at all.
+In this talk I will discuss strategies that I have used to manage my time more effectively and maintain a positive work and life balance.  This will include the tools that I use, the processes that I try to follow and the attempts that I've made to separate the expectations and the disappointments of the open source software projects' users from my personal wellbeing while also remaining interested and motivated.","# Freelancing and open source
+
+Software freelancing can be a great deal of fun but it can also be all consuming.
+The ability to work as much or as little as you need to can lead to extremes in each direction, either at the cost of profitability or at the exclusion of any open source at all.
+
+In this talk I will discuss strategies that I have used to manage my time more effectively and maintain a positive work and life balance.  This will include the tools that I use, the processes that I try to follow and the attempts that I've made to separate the expectations and the disappointments of the open source software projects' users from my personal wellbeing while also remaining interested and motivated.",
+75,It's just...,"It's just a quick fix’
+‘It's just software’
+‘It's just…'
+
+How many times have we heard an employer, client or co-worker utter those famous last words, ‘It's just…' this, ‘It's just…’ that, when talking about the latest change they wish to make to our already creeking or over-burdened application.
+
+But what if it was?
+
+In the age of Ruby growing pains and monolithic Rails applications, smaller
+is better. Let's talk about how breaking things down into smaller units, smaller
+services and components brings us benefits. Examine how we can use composition
+not inheritance or mixins to build smaller classes, faster tests and better
+designed applications.","It's just a quick fix’
+‘It's just software’
+‘It's just…'
+
+How many times have we heard an employer, client or co-worker utter those famous last words, ‘It's just…' this, ‘It's just…’ that, when talking about the latest change they wish to make to our already creeking or over-burdened application.
+
+But what if it was?
+
+In the age of Ruby growing pains and monolithic Rails applications, smaller
+is better. Let's talk about how breaking things down into smaller units, smaller
+services and components brings us benefits. Examine how we can use composition
+not inheritance or mixins to build smaller classes, faster tests and better
+designed applications.",
+76,Radioactive Hamsters,Talk about Capybara's internals.,"# Radioactive Hamsters
+
+Capybara shows up in many toolkits, taking away the pain and verbosity of functional testing.  It's a fantastic tool... But do you know _how it works_?
+
+Let's explore Capybara together!  We'll see the driver lifecycle, learn how the DSL is interpreted, and ~~steal~~learn some of the clever code tricks to use for ourselves.  We'll also look at creating custom drivers, and some of the hurdles faced when extending the Capybara DSL or features.
+
+Capybara is flexible, powerful and full of elegant, clever code.  I learned a great deal from integrating with it -- You will too.",
+77,Use case driven development,I'm only submitting one talk to this conference because I think this is the most important issue facing our community when it comes to maintainable applications.,"# Application Architecture: Boundaries, Object Rules & Patterns
+
+This talk is about something important in the community. The ruby
+community is missing something fundamentally important. We don't know
+how to architect applications. We've grown accustomed to using
+frameworks for everything and we've lost our way. We no longer talk
+about making applications, we speak about applications build _in_
+frameworks. Example: oh hey man, did you hear NewApp123 is built _in_
+rails? I take offense to that. The application is not built in rails,
+it's built in _ruby_ than rails is _used_ to put it online. This
+mentality is prevalent in the community. It's damaging and encourages
+technical debt.
+
+My talk is about providing a new architecture based on solid OOP
+principles such as the boundary between objects, SRP, proper logic
+less views, application patterns, and good testing principles. All of
+this in name of changing the way we write and maintain applications.
+
+The talk follows this format:
+
+* Introduction
+* System Design: Object roles, boundaries, protocols, patterns, and delivery mechanisms
+* TDD implementation of use cases, forms, models, and other object roles
+* TDD implementation of HTTP delivery mechanism using Sinatra
+* Problems withs Rails & Rails style MVC approach to web applications
+* The ideal stack: calling out gems that exemplify qualities mentioned earlier
+* Wrap up & conclusion
+* How to migrate and redesign current systems
+
+Note: the paper will have been published well before the conference.",
+78,Adventures in Creating a Career.,This is a talk providing advice based on my 20 years of experience as a developer.,"# Adventures in Creating a Career
+
+As developers, we're required to be on the very edge of technological innovation to remain competitive and relevant. Managing our technical skills is just something we need to do. But what about managing our careers? How do we put ourselves in the position to take advantage of opportunities without being taken advantage of ourselves? In this talk, Sean will detail lessons learned through his own experiences during his 20-year development career in the hope that you can avoid some of his mistakes.",
+79,The Tip of the Iceberg: Development Was The Easy Part,"Production blindness (for lack of a better phrase) is a really big problem for web developers. Once they've struggled all the way through creating their app, they have to learn how to deploy it! And even if they know how to deploy it, they are unlikely to realize just how different production environments are from development. Without awareness of how production environments are different, we can't anticipate how they will break. Let's encourage thought and discussion about those differences when it's easy to make changes, not after production has gone down for the third time this month.","# The Tip of the Iceberg: Development Was the Easy Part
+
+We want to produce reliable, functioning software... but we often don't. The cliched cry of ""but it works on my machine"" demonstrates the myopia that most web developers (including me) suffer from: we spend almost all of our time working with a development environment. This leads us to think of production as ""like development, with people using it"". Then, when things go wrong, we think ""oh, I see now, production is like development except this one thing that went wrong"". This is exactly the opposite of the mindset we need. Production is fundamentally different from development, and it's important to keep that in mind. This talk discusses some of those fundamental differences, including load balancing, metrics, data store reliability, and network partitions. Don't get stuck rebuilding your servers at 3AM because you went with the option that was easiest during development!
+
+### Why this talk?
+
+Production blindness (for lack of a better phrase) is a really big problem for web developers. Once they've struggled all the way through creating their app, they have to learn how to deploy it! And even if they know how to deploy it, they are unlikely to realize just how different production environments are from development. Without awareness of how production environments are different, we can't anticipate how they will break. Let's encourage thought and discussion about those differences when it's easy to make changes, not after production has gone down for the third time this month.",
+80,Ruby Hacking Practicum,"Have you ever dreamed of hacking a mainframe or infiltrating the network of a shady government organization? In this workshop, I will get you one step closer to achieving your dream.
+You will learn about the most prevalent attack methods used to exploit Ruby applications by actually hacking some apps. There will be no theory and no fancy-talk, just hacking. For each attack method we cover, I will take you through three steps--detection, exploitation, and patching. Towards the end, I will share tools used by security experts to automate the detection and exploitation process.
+Some attack methods you will learn more about:
+* Cross-site request forgery
+* Social engineering
+* Cross-site-scripting
+* Password attacks
+* Rails-specific attacks
+This talk is aimed at Ruby developers of any skill-level who want to learn more about security via hacking. By the end of the talk, you will be able to detect, exploit, and patch various security vulnerabilities. I will use Rails and Sinatra as hacking mediums, but the attack methods learned will apply to any Ruby application.","# Hacking Practicum
+
+Have you ever dreamed of hacking a mainframe or infiltrating the network of a
+shady government organization? In this workshop, I will get you one step closer
+to achieving your dream.
+
+You will learn about the most prevalent attack methods used to exploit Ruby
+applications by actually hacking some apps. There will be no theory and no
+fancy-talk--just hacking. For each attack method we cover, I will take you
+through three steps--detection, exploitation, and patching. Towards the end, I
+will share tools used by security experts to automate the detection and
+exploitation process.
+
+Some attack methods you will learn more about:
+
+* Cross-site request forgery
+* Social engineering
+* Cross-site-scripting
+* Password attacks
+* Rails-specific attacks
+
+
+This talk is aimed at Ruby developers of any skill-level who want to learn more
+about security via hacking. By the end of the talk, you will be able to detect,
+exploit, and patch various security vulnerabilities. I will use Rails and
+Sinatra as hacking mediums, but the attack methods learned will apply to any
+Ruby application.",
+81,Core Data in Motion,"Have you tried to use CoreData in RubyMotion, only to get lost in the quagmire of simplistic or confusing examples, DSL's and gems? Have you been asking yourself these questions: Do I have to use XCode to create a CoreData model?; How do relationships work in code work anyway?; How do I pre-load data into my CoreData store?; What is an NSFetchedResultsController, and why do I need one?
+We'll delve into each of these questions, and review the surprisingly simple, elegant solutions that RubyMotion can provide.","# Core Data in Motion
+
+Have you tried to use CoreData in RubyMotion, only to get lost in the quagmire of simplistic or confusing examples, DSL's and gems? Have you been asking yourself these questions: Do I have to use XCode to create a CoreData model?; How do relationships work in code work anyway?; How do I pre-load data into my CoreData store?; What is an NSFetchedResultsController, and why do I need one?
+
+We'll delve into each of these questions, and review the surprisingly simple, elegant solutions that RubyMotion can provide.
+
+Level: Intermediate",
+82,Introduction to iOS Development with RubyMotion,"Hands-on one-day workshop to bootstrap you into developing iOS applications with RubyMotion. We will introduce the iOS system, RubyMotion, then write our very first iOS app.
+
+Requirements: Basic Ruby knowledge, a Mac computer and a valid RubyMotion license. ","# Introduction to RubyMotion
+
+Hands-on one-day workshop to bootstrap you into developing iOS applications with RubyMotion. We will introduce the iOS system, RubyMotion, then write our very first iOS app.
+
+Requirements: Basic Ruby knowledge, a Mac computer and a valid RubyMotion license. ",
+83,Problems not to solve on a Friday afternoon,"# Problems not to solve on a Friday afternoon
+Some problems can be solved quickly.
+Some problems can be solved slowly.
+Some problems you should never, ever promise your boss you can solve in a reasonable amount of time.
+Have you ever heard your boss tell a client, 'Sure, we can calculate the optimal route for your salespeople'? How about, 'Yes, we can determine the most efficient schedule for those activities.'
+This talk will explain why those promises are a bad idea, and why you should always be very careful when promising absolutes. It will serve as a reminder for those who've met the P vs NP problem before, and a brief introduction to those who have not. 
+And if you can solve them in an efficient manner on a Friday afternoon, there's a million dollars in it for you. Even if you can do it on a Monday morning!
+","# Problems not to solve on a Friday afternoon
+
+Some problems can be solved quickly.
+Some problems can be solved slowly.
+Some problems you should never, ever promise your boss you can solve in a reasonable amount of time.
+
+Have you ever heard your boss tell a client, ""Sure, we can calculate the optimal route for your salespeople""? How about, ""Yes, we can determine the most efficient schedule for those activities.""
+
+This talk will explain why those promises are a bad idea, and why you should always be very careful when promising absolutes. It will serve as a reminder for those who've met the P vs NP problem before, and a brief introduction to those who have not. 
+
+And if you can solve them in an efficient manner on a Friday afternoon, there's a million dollars in it for you. Even if you can do it on a Monday morning!",
+84,The Parental Programmer,"# The Parental Programmer
+Programming can be an all consuming job. So can parenting. 
+How do you keep up with new technology, contribute to open source, earn some money, and be there for your children?  What do you focus on and what do you discard?  Is it even possible to do it all?
+As the mother of a 3 month old, I certainly don't have all the answers. This talk will collate suggestions from programming parents all around the world, so we can make new mistakes going forward, instead of repeating those of the past.","# The Parental Programmer
+
+Programming can be an all consuming job. So can parenting. 
+
+How do you keep up with new technology, contribute to open source, earn some money, and be there for your children?  What do you focus on and what do you discard?  Is it even possible to do it all?
+
+As the mother of a 3 month old, I certainly don't have all the answers. This talk will collate suggestions from programming parents all around the world, so we can make new mistakes going forward, instead of repeating those of the past.",
+85,Extreme Makeover: Rubygems Edition,"This talk exists primarily as a 'State of the Gem Ecosystem Address', to tell everyone how things are going, what we've been working on, and why they should care. It also tries to point out the benefits that every Rubyist gets from the Ruby ecosystem, while gently letting them know that those things don't happen for free. Hopefully, by providing that information, we can ask people to contribute time and effort to improving things for everyone and sound like we are leading by example, rather than demanding that someone step up to solve the problems for us, already.
+","# Extreme Makeover: Rubygems Edition
+
+Rubygems.org provides every Rubyist with an amazing service: all the libraries in the Ruby world. As amazing as that is, installing gems can be a time-consuming and even error-prone process. (Just ask the Travis guys.) In this talk, you'll learn about the recent dramatic changes in Rubygems and Bundler to improve speed and reliability by rewriting the Rubygems client/server architecture. I'll show how the new system caches more information, makes fewer requests, and takes less time to install gems. Finally, I'll cover how the changes allow worldwide mirrors of rubygems.org, improving things for Rubyists around the globe.
+
+### Why this talk?
+
+This talk exists primarily as a ""State of the Gem Ecosystem Address"", to tell everyone how things are going, what we've been working on, and why they should care. It also tries to point out the benefits that every Rubyist gets from the Ruby ecosystem, while gently letting them know that those things don't happen for free. Hopefully, by providing that information, we can ask people to contribute time and effort to improving things for everyone and sound like we are leading by example, rather than demanding that someone step up to solve the problems for us, already.
+
+NB: this talk covers some things that haven't actually shipped as of this proposal. that said, they should be shipped before this talk is given.",
+86,Capybara drivers zoo or make friends with Poltergeist,,"# Capybara drivers zoo or make friends with Poltergeist
+
+A lot of developers all around the world write integrational tests using
+Capybara. They don't know how it actually works or which driver they should
+choose especially when there isn't the single one. We will talk about how
+Capybara works and switches drivers, which one you should choose and when and
+also we'll consider and disassemble Poltergeist — the truly headless driver that
+many people use including Travis-CI.",
+87,2D games with RubyMotion and SpriteKit,"# 2D games with RubyMotion and SpriteKit
+Have you ever had a great idea for a game running on iOS? With RubyMotion and SpriteKit
+turning your game idea into a reality can be quite simple.
+In this talk we'll cover the basics of SpriteKit and 2D game making with iOS7. We'll discuss how
+to manage sprites, game physics and user interaction within your game and along the way create
+a multiplayer pong style game that you can play with your friends.","# 2D games with RubyMotion and SpriteKit
+
+Have you ever had a great idea for a game running on iOS? With RubyMotion and SpriteKit
+turning your game idea into a reality can be quite simple.
+
+In this talk we'll cover the basics of SpriteKit and 2D game making with iOS7. We'll discuss how to manage sprites, game physics and user interaction within your game and along the way create a multiplayer pong style game that you can play with your friends.
+",
+88,Ansible - your first step into server provisioning,,"# Ansible - your first step into server provisioning
+
+The ability to repeatably and automatically build your servers in code is essential for managing a modern Ruby application's server infrastructure.
+
+Solutions such as Chef and Puppet are often used to solve this issue, but for some teams, this might be too costly to learn and implement effecitvely. Bridging the gap between these larger solutions and shell scripting is Ansible, a light footprint provisioning tool using SSH and YAML files to quickly define repeatable server creation and configuration steps.
+
+This talk will cover:
+* introduce server provisioning at a high level
+* explain how Ansible fits into that pattern
+* describe simple Ansible commands and modules
+* run through a basic playbook example, bringing these elements together
+* summarise other functionality offered by Ansible",
+89,Fighting Fires,":fire: + :sweat_smile:  + :sweat_drops: == :smile: 
+---
+I want to talk about the bits of launching a product as a small
+team that are hard and more important. I won't be talking about
+optimising your rails stack, writing better code or stuff like that.
+Instead, I'll be taking a look at the story of the development
+of our application, [Discovr](http://discovr.info) - over the period
+of just over a year (with two backend developers and a team of others)
+and how we fought the product and code fires that came up during that
+came up during our development lifecycle - and when we launched and got
+a barrage of updating users and media coverage (e.g. TechCrunch).
+For more info, see the proposal! :thumbsup:  ","# Fighting Fires: Lessons learnt launching a product with a small team
+
+I want to talk about the bits of launching a product as a small
+team that are hard and more important. I won't be talking about
+optimising your rails stack, writing better code or stuff like that.
+
+Instead, I'll be taking a look at the story of the development
+of our application, [Discovr](http://discovr.info) - over the period
+of just over a year (with two backend developers and a team of others)
+and how we fought the product and code fires that came up during that
+came up during our development lifecycle - and when we launched and got
+a barrage of updating users and media coverage (e.g. TechCrunch).
+
+It'll cover:
+
+* How our tendency to overengineer things bit us (and how technical debt
+  is the silent killer)
+* Practical tips like the tools and techniques we found helped us sleep at night
+* How we used and abused several ruby and associated tools along the way to solve
+  problems we encountered.
+* How things can fail in unexpected ways (i.e. getting api endpoints deprecated)
+
+Finally, it'll covr how our decision process for technology
+worked and didn't work as well as why spending time in some things,
+such as continious deployment and automated server management, which can
+be hard to sell in a product environment, helped pay off when we got launch
+day any everything was on fire.
+
+In other words, a look at things we found important when building a product
+as a small team in a startup environment, how we screwed up and a dash
+of stories about the things that happened along the way.
+
+Think of it like one of those road trip movies, were not only do you
+(hopefully) get a little bit of knowledge, not a lot of substance but
+in theory you get to laugh a little along the way.",
+90,Hacking Sidekiq for Fun and Profit,"It's almost inevitable in any Ruby Project - you hit that stage
+where your logic starts getting more complex, you start doing more stuff that needs to
+happen but doesn't have to happen in the foreground - or you just want
+things to be faster.
+You move your logic out into workers and do the work in the background.
+This talk is going to be all about Sidekiq - a threaded background job implementation written in Ruby - and, in two parts: How you can use it and how you can bend it to your will.
+For more info, see the proposal.","# Hacking Sidekiq for Fun and Profit
+
+It's almost inevitable in any Ruby Project - you hit that stage
+where your logic starts getting more complex, you start doing more stuff that needs to
+happen but doesn't have to happen in the foreground - or you just want
+things to be faster.
+
+You move your logic out into workers and do the work in the background.
+
+This talk is going to be all about Sidekiq - a threaded background job implementation
+written in Ruby - and, in two parts: How you can use it and how you can bend it to your will.
+
+### Part 1: Intro to Sidekiq
+
+The boring: a brief introduction to sidekiq, how it works - what it's advantages are.
+The stuff you need to know about it, why it's useful to consider - even if you're using
+CRuby / MRI.
+
+### Part 2: Hacking Sidekiq
+
+The cooler part - once you know what Sidekiq is, I'm going to show how you can use
+sidekiq in your product, how you can extend it and bend it to your will. I'll go into
+how it implements itself in ruby land and how it interacts with the Redis.
+
+I'll show how you can use the existing middleware (and write your own) to add behaviour
+to your code, patterns we've found useful for implementing and testing workers as well
+as the even more interesting side - using Lua support in redis to implement stuff in sidekiq.
+
+I want to encourage developers to look at extending their tool set to work better with
+not just ruby - to become comfortable with how they work internally (e.g. you should really
+learn how to love redis) and what you really need to be careful of (e.g. bugs that manifest when
+the site is under less load than usual - a real world example of going too far).
+
+Finally, I'll end with an important question: Why not just use a proper message queue?",
+91,How to create the perfect protoype,,"# How to create the perfect prototype
+
+Prototyping is hard. As a digital agency, Mint Digital has created a number of prototype applications for clients, however these have been some of our least satisfying projects. Whilst we have been inspired by the project and put in the extra mile to delight, things sometimes just don't quite click.
+
+It's taken us a while, and we've been through quite an experience to get to this point, but at Mint, we think we have solved the issue in a way that works for us, for our clients and for the end product. And all it takes is 4 days!
+
+We'll look at the problems that prototypes can face; slippage, lack of focus and bloat. We'll see how our solution materialised out of Mint's company culture in a way that truly surprised us. We'll recap those initial issues and how we solve them and finally we'll look over how Rails helps us as developers and how we can help ourselves when creating prototype applications. By the end, 4 days is all you will need to create anything!",
+92,Concurrency for !Dummies (Who Don't Get It (...Yet)),,"# Concurrency for !Dummies (Who Don't Get It (...Yet))
+
+You can't go to a Ruby conference lately without someone banging on about concurrency and thread safety. You're a smart Rubyist, but... you don't get it. You understand the basic idea, you nod along, but once they get into the jargon, what does it all mean? How does it apply to you, and what is it, exactly? This talk will answer those questions, by engaging in a basic primer on concurrency in Ruby, a discussion of actual examples of how it works, and provide you with answers that will leave you nodding in agreement, rather than nodding off.",
+93,How To Interview And Why,,"# How to Interview and Why
+
+We do a lot of things right in our industry, but one thing we're really bad at is interviewing job candidates. An interview too often feels like a first date - awkward, strange, and not entirely predictive of what's to follow. There are countless books and websites to help you when you're a job seeker, but what about when you're the one doing the hiring? Will you just ask the same puzzle questions or sort algorithm problems? What are your metrics for evaluating or contextualizing the answers? In this talk, I'll discuss successful practices and techniques to help you find someone who will innovate your business, bring new energy to your team, get the work done, and be someone you'll want to work with. ",
+94,RuboCop: A Ruby style guide gone executable,"RuboCop: A Ruby style guide gone executable
+----------------------------------------------------------------------
+RuboCop is a static code analyzer. It analyzes your code to see if it follows style guidelines, such as those suggested by Bozhidar Batsov's Ruby Style Guide. It also performs linting of your code.
+By default, RuboCop will report problems in your code, but for some problems, you can ask RuboCop to automatically correct them for you.
+RuboCop is configurable. Each guideline is enforced by a single cop, which can be disabled, or configured to represent a modified guideline.
+This talk will cover how to use RuboCop, including configuration, what it can detect, and how it is useful.","# RuboCop: A Ruby style guide gone executable
+
+RuboCop is a static code analyzer. It analyzes your code to see if it follows style guidelines,
+such as those suggested by Bozhidar Batsov's Ruby Style Guide. It also performs linting
+of your code.
+
+By default, RuboCop will report problems in your code, but for some problems, you can ask RuboCop
+to automatically correct them for you.
+
+RuboCop is configurable. Each guideline is enforced by a single cop, which can be disabled, or
+configured to represent a modified guideline.
+
+This talk will cover how to use RuboCop, including configuration, what it can detect,
+and how it is useful.",
+95,All Routes should Nest,,"# All Routes Should Nest.
+
+In your RESTful application, every concept that you treat as a Resource
+is related to at least one other Resource. Which of these relationships
+should have nested routes? This is not just a Web problem.
+
+If you answered ""just the ones I need"", you're doing it wrong.
+If you're thinking about your nested URLs, you're probably doing it wrong.
+
+By analysing practical examples using the theory of conceptual graphs,
+I'll show why RESTful API design needs a new approach. All concepts in
+your application are inter-related, and every API should automatically
+allow requests for nested data, traversing any of these relationships,
+including to multiple levels of nesting.  You shouldn't have to explicitly
+nest any resource. We use already colon-include in ActiveRecord, but we
+need it in our APIs too. Using this approach, we can design a new
+generation of simple but super-flexible APIs.",
+96,It's business time: How to metric,"You can't put a price on data. Great data tells stories about your customers and serve to inform or reinforce the decisions you make about your product. Great data should be readily available, easy to consume and be able to answer any question you want to throw at it.
+The problem is that the applications we build are not well-suited for exposing data. What starts with a few SQL queries quickly turns many. More and more requirements come in, and by now you've written Ruby code to build reports. Then you need to put it in the UI so non-developers can access it whenever they want to. Maybe you have business intelligence people accessing your production data directly. However hard you try, tech debt quickly accumulates, making it difficult to change either your database or the reports you've created.
+There's a better way. Let me show you how.","# It's business time: how to metric
+
+You can't put a price on data. Great data tells stories about your customers and serves to inform or reinforce the decisions you make about your product. Great data should be readily available, be easy to consume, and be able to answer any question you want to throw at it.
+
+Somebody wants to know how many sales we did last month. You start off with some database queries to get the right numbers. Then you need to make it into a .csv. And wouldn't it be a good idea if we could segment by country? No problem, let's do some JOINs. Then the business people want the data on-demand, so let's put a UI around it and present it nicely. Add a dropdown to filter. And then it's time for the next question. However hard you try, tech debt quickly accumulates, making it difficult to change either your database or the reports you've created.
+
+There's a better way. This talk is a deep dive into what that is, and how to implement that into your application.
+
+In this talk, we'll look at how to determine what the important data is, and how to capture it in a way that doesn't mess with your app. We'll cover how to make data consumers jump up and down with joy. We'll use real code examples to demonstrate how easy it is to get it working. We'll talk about how this approach scales (spoiler warning: incredibly well) and how to manage growth of your product.
+
+Great data that's easy to manage and makes your boss happy is at your fingertips. Let's learn how to unlock it.",
+97,Tools to make your life easier,A talk on creating 'jigs',"# Homemade tools to make your life easier
+
+In carpentry, a ""jig"" is a tool, often made from cheap plywood, just good
+enough for one job. It's used a few times, then thrown back into the scrap
+pile to be hacked into another tool the next time around.
+
+In other words, this isn't your Uncle Bob's carpentry.
+
+A _programmers'_ jig might rename 60 source files based on the class defined
+in each. Or identify potential race conditions, by determining which globals
+are reachable from different threads.
+
+These jigs are code which operates on our code.  As such they hit the really
+sweet niche of being fun, throw-away code _and_ built on fun computer
+sciencey principles.
+
+I'll talk about several principles and techniques for creating single-use tools.
+We'll walk through a collection of jigs in Ruby, Bash, and a few other languages,
+and talk about the jig-building patterns we need to keep in the toolchest to
+make our lives as devs easier and more fun.",
+98,Complexity Multipliers,,"# Complexity Multipliers
+
+Ever been on that project where you've been able to turn around a new feature
+inside an hour?  And then the next project where it takes six weeks to turn
+around a feature that feels just about the same size?  You rack your brain,
+and when you try to figure out why, all you come up with is small stuff.
+""Well, I guess we have to commit twice for a config change instead of once…""
+
+I posit there are a class of things which are ""complexity multipliers""–things
+which seem small, but when a few of them get together, they have a major
+impact on the velocity of the project.
+
+The good thing is that complexity multipliers are easy to identify–if you
+know what you are looking for.  They can be things inherent in the structure
+of the code, in the development process, in the development tools.  I'd like
+to show you some graphs and some common examples and define a conceptual
+framework of how they affect projects.",
+99,Fear Of The Class - A Refactoring Tale.,,"# Fear Of The Class - A Refactoring Tale
+
+This is the story of a brave knight and his struggle for unchaining his village from the claws of The Giant Monolith. Stepwise we walk through his attempts of refactoring a gem to a better object design. While we do discuss patterns and strategies this is more than just ticking off refactoring recipes. This is a pictorial exploration of how we turned a complex frightening code pile into a managable architecture that's fun to work with.",
+100,Modern Concurrency Practices in Ruby,,"# Modern Concurrency Practices in Ruby
+
+So you think that concurrency is a subject lost in the Ruby world?
+That it's not practical because of the GVL? That the concurrency
+paradigm that's bundled with Ruby (a.k.a threading) is not the best
+way to do concurrency? Or that you already have multi-processes and
+don't need multi-threading concurrency.
+
+Think again. The Ruby concurrency story has advanced a lot in the last
+couple of years. Have you heard of people talking about actor-based
+concurrency, using futures, Software Transactional Memory etc. and
+want to know more about those?
+
+This talk is a primer on these different paradigms of concurrency,
+briefly touching on the traditional threads-based model, but focusing
+more on modern paradigms like actors/futures/STM, with examples and
+live-demos. Along the way we'll also see what's already possible in
+Ruby (and in other implementations like JRuby and Rubinius, using gems
+like Celluloid and friends).
+
+PS: To add some variety, I'll employ the widely recognized but rarely
+heard (at Rubyconf AU) Indian accent.",
+101,Ruby Robotics,"Ruby's great and robots are neat, so we'll start off with a survey of robotics
+in ruby and then dive into some specific, fun projects such as:
+- Controlling a Sphero and a Parrot AR Drone with ruby
+- Using JRuby on Android to control GPIO on the Raspberry Pi via drb
+- Building your own full-stack remote controlled robot using drb.","# Ruby Robotics
+
+Ruby's great and robots are neat, so we'll start off with a survey of robotics
+in ruby and then dive into some specific, fun projects such as:
+
+- Controlling a Sphero and a Parrot AR Drone with ruby
+- Using JRuby on Android to control GPIO on the Raspberry Pi via drb
+- Building your own full-stack remote controlled robot using drb.",
+102,Becoming a Software Engineer: Inspiring a New Generation of Developers ,A talk by Kinsey Ann Durham,"Becoming a Software Engineer: Inspiring a New Generation of Developers
+
+In my wildest dreams, I never thought that I would become a software developer.
+I thought that I wasn't smart enough, that I needed a computer science degree
+and to have been writing code since I was young. But, the traditional path to
+becoming a developer is changing. This talk will focus on alternative and
+untraditional paths to becoming a developer such as programs like Railsbridge,
+mentorship and apprentice programs. These alternative paths ultimately foster a
+more diverse and inclusive community, which drives economic growth and produces
+more innovative solutions. 
+The objectives of the talk are: 
+- to bring awareness to the educational alternatives to computer science degrees 
+- to encourage empathy when mentoring a beginner 
+- to get the audience to see a different perspective and embrace differences in
+  the industry",
+103,Using Ruby to Automate Your Life,,"# Using Ruby to Automate Your Life
+
+## Abstract
+You probably use Ruby everyday, so why not use Ruby to automate some common tasks?
+What if you could spin up an EC2 instance and have it automatically configure your
+web server, database, users, and more? What if you could effectively capture and
+replicate your production environments reliably and consistently? What if you could
+then give developers production-like environments as Virtual Machines, with no
+additional work? What if you could set up your new laptop with multiple Ruby versions,
+your favorite software, and even change the desktop background - from a single command?
+The good news is - you can!
+
+Chef is a configuration management and automation tool that solves these problems and
+many more. In this talk, you'll learn common just how easy it is to capture your
+infrastructure in Chef. Save time and money by using Chef's Ruby DSL to ""define"" your
+laptop.
+
+How many times have you bought a new laptop and realize just how much stuff you
+installed over the years? If you're using Chef, run a single command and all your
+favorite Applications, Preferences, and even passwords are back in place. And the best
+part - because Chef is written in Ruby, you get to continue using the language you love!
+
+## Additional Notes
+Disclaimer: I work for Opscode, but this is not a sales pitch. I'm demonstrating a tool
+that can save time and money. Plus is really fun!
+
+I think this talk is really valuable information to Rubyist. Many similar Ruby conferences
+(like Mountain West) have created a separate track for ""DevOps"". This new movement is
+really gaining light in the community and I think showcasing a tool in the DevOps
+world would be a nice change of pace.",
+104,Cryptography Pitfalls,As developers we often do a poor job of implementing cryptography and other security measures in our systems. Often the primitives used are out of date and overlook very subtle flaws. These mistakes lead to systems that are hopelessly insecure despite our perception that we’ve build an impenetrable fortress. Fortunately there are a few tools and techniques at our disposal that can ease some of the pain. In this talk we’ll explore some of the most common pitfalls developers encounter with cryptography and restore some of our sanity.,"# Cryptography Pitfalls
+
+As developers we often do a poor job of implementing cryptography and other security measures in our systems. Often the primitives used are out of date and overlook very subtle flaws. These mistakes lead to systems that are hopelessly insecure despite our perception that we've build an impenetrable fortress. Fortunately there are a few tools and techniques at our disposal that can ease some of the pain. In this talk we'll explore some of the most common pitfalls developers encounter with cryptography and restore some of our sanity.
+
+* Specific topics:
+* Misusing cryptographic primitives
+* Poor random number generation
+* Secure password storage
+* Other subtle flaws that can leave you insecure
+* Why you should use TLS/SSL and GPG instead
+* Learn what a group of researches has called ""The Most Dangerous Code in the World""",
+105,"You're doing it wrong - Business Logic, View Templates and faster Unit Tests",,"# You're doing it wrong - Business Logic, View Templates and faster Unit Tests
+
+A blog in 15 minutes is great, but what happens when you're trying to build something truly complex?
+
+Your view code turns to madness, with conditional statements spread throughout.
+
+Your models turn into a complicated series of chained events that are hard to follow and difficult to wrap in transactions.
+
+Your tests are comprehensive and slow to keep your application working.
+
+But at least your controllers are skinny so you're doing it right. Right?
+
+Wrong.
+
+There is a better way, this is just one. This talk is about adopting [Mustache Style ERB](http://warpspire.com/posts/mustache-style-erb/) templates and the [Interactor gem](https://github.com/collectiveidea/interactor) for separating and organising business logic.",
+107,Late to the party: From Java to Ruby,My journey from being mostly Java to mostly Ruby dev. You will find this talk useful if you want to make transition from one technology/community to another. ,"# Late to the party: From Java to Ruby
+
+My journey from being mostly Java to mostly Ruby dev. You will find this talk useful if you want to make transition from one technology/community to another. 
+
+We will cover:
+
+ - Where should you start
+ - What to do, once you know the basics 
+ - Making the transition 
+
+This talk will be particularly beneficial for people moving into Ruby.",
+,Don't,,"We all know that intelligent species learn from mistakes, right?
+
+There's just one problem: Life is too short to make every possible mistake! Also, some mistakes are more costly than others. What's the ambitious learner to do? I'm glad you asked! I'm an expert at making mistakes, and I'm happy to share as many of them as I can possibly fit into a 45-minute time slot with you, my dear conference attendee!
+
+We'll discuss a variety of exciting mistakes, ranging from the misapplication of metaprogramming techniques to letting emotions become barriers to new technologies to why it's a horrible idea to stretch a gel keyboard wrist rest across a room, even if it seems like an awesome plan at the time.
+
+Why should you accept this talk?
+
+I have found that the best talks are about things the speaker can talk at length about, even without a script. This is a talk about stupid things I've done. Therefore, it follows that this will be the BEST TALK EVER.
+
+But seriously, I get a ton of questions from junior developers and people who are just trying to figure out what they want to do next. I feel like I've given this talk already, a thousand times over, to individuals. It's probably just better to leverage economies of scale, and share with a whole room of people.
+
+I plan to make the talk humorous, informative, and in general a good time for all.
+
+Thanks for reading this far, and I hope you'll consider my proposal!",
+,... but we had to kill unicorns,,"How often do you have to leave your comfort zone? How often does it happen that you need to change the fundamentals of your application?
+
+Well… it has happened to my team some time ago. We had to abandon our way of thinking about Ruby on Rails applications. Single-threaded servers were not a choice anymore, neither was JRuby nor Event Machine. And we had to handle up to 200k requests per minute.
+
+This talk is a case study about how, step by step, we got to multi threaded RoR application with MRI 1.9, MySQL, DataMapper. I want to present how we came to the solution, what did we have to do to make our application thread safe, how did we manage to use threads in MRI and what we learned while working on the big feature, that made us change the fundamentals of our application.
+
+Although the application in this case was built with Ruby on Rails, the talk won't be specific to this framework. I want to talk about threading and parallelism in Ruby and its open source libraries, as well as the process of making deep changes in the application that handles pretty big traffic.",
+,Front end Choices,,"# Front end Choices
+## Should we be building our user interfaces the ""Rails Way""?
+
+Rails was born in 2004, the time of the ‘Ajax revolution.’ With the help of a little bit of prototype, scriptaculous and RJS, Rails made its mark in part because it facilitated creating beautiful and highly interactive web user interfaces in no time at all.
+
+Fast forward to 2013. Frameworks like [Meteor][meteor] and [Hoodie][hoodie] are capturing increasing mindshare. Are we now in the decade of JavaScript? Is the ""Rails Way"" still relevant to the Front End?
+
+This talk will explore three approaches in two parts to build a front end for your Rails application:
+
+1) In the first approach - ‘the Rails Way’ - I exploit all the parts of the default Rails stack, as blessed by DHH himself. This includes jquery-ujs, Turbolinks and Sprockets. Fundamentally with this technique, most HTML is still generated server-side.
+
+Included in this part of the talk is a discussion if Progressive Enhancement makes sense, and a demonstration of the techniques involved.
+
+2) The second approach is the ‘Angular Way’, exposed together with the 3) third approach, the ""Ember Way"". With both perspectives, I show how to build ""full"" client-side web applications.
+
+Included in this part of the talk, in particular, are:
+* a discussion about which of the two popular frameworks fits the Rails mindset best, and which brings the steepest learning curve,
+* ‘to pipeline or not to pipeline’: does it still makes sense to stick with Sprockets or is more meaningful to use a separate build toolchain (e.g. grunt and bower) in the front end?
+
+[meteor]:http://www.meteor.com
+[hoodie]:http://hood.ie
+[angular]:http://angularjs.org
+[ember]:http://emberjs.com",
+,Find Simplicity With Plain Old Ruby Objects,,"# Encuentra la simpleza con objetos Ruby sencillos
+# Find Simplicity With Plain Old Ruby Objects
+
+
+This talk will discuss why you might, when you set out to design a system, want to stop thinking about persistence. Rather than kicking off a project generating models that subclass `ActiveRecord::Base`, I will suggest beginning your application development by modelling behaviour with *Plain Old Ruby Objects (POROs)*.
+
+While including ideas from [Avdi Grimm]'s [Objects on Rails], the talk will primarily be based around my personal experience refactoring an-ActiveResource based system with Plain Old Ruby Objects and [roar].
+
+Included in this talk will be an exploration of:
+
+- patterns, such as [Repository] and [Data Mapper], as coined by Martin Fowler,
+- how upcoming libraries - Curator, DataMappify, ROM.rb and Veritas - fit in with these patterns,
+- the parts of these libraries that are usable today,
+- how to make this methodology workable in the context of TDD (keeping components as testable as possible).
+
+There will also be a discussion about the stage when you should begin implementing persistence.
+
+
+[Avdi Grimm]:http://about.avdi.org/
+[Objects on Rails]:http://objectsonrails.com/
+[roar]:https://github.com/apotonick/roar
+[Data Mapper]:http://martinfowler.com/eaaCatalog/dataMapper.html
+[Repository]:http://martinfowler.com/eaaCatalog/repository.html",
+,Ruby Community: How a language reflects its people,,"# Ruby Community
+## How a language reflects its people
+
+Different computational languages bring different sets of culture and values, and a different group of interested people. ""The limits of your language are the limits of your world"", said Wittgenstein.
+
+The Ruby community is known for having a very active user group. I will investigate some of the reasons for this, including the design, structure, semantics and grammar of the language itself and the departing point for its own culture established by Matz and core committers.
+
+The talk also includes a run-down of my experiences running an event (eurucamp) by and for the Ruby community, and how everyone can participate in building a better community and this could help to continue building a better language.",
+,Bridging the Gap to Unconscious Incompetence,,"Talk:
+Q1: why are things like Rails Girls and Railsbridge necessary to engage women?
+Q2: why don't men need outreach programs?
+Q3: why do we need (more) women?
+Q4: have we been asking the right questions?
+
+Proposed answers and theories to research and present on:
+A1: Supposedly, there are four stages of competence: (1)'unconscious incompetence' or 'you don't know what you don't know,' (2)'conscious incompetence' or 'you know what you don't know,' (3)'conscious competence' or 'you know what you know,' and (4)'unconscious competence' or 'you don't know what you know.' I visualise each level as a plateau with big gaps in between that have to be filled with knowledge and experience in order to cross over to the next level.
+
+What I've found with working with Rails Girls (and inferred from hearing about Rails Bridge) is that there are plenty of women interested in becoming programmers, but they get stuck getting from level (1) to level (2). This is, in my opinion, the hardest level to bridge. How can you fill that gap with experience when you don't know where to even start? There are plenty of resources once you get to level 2: 'Learn Ruby the Hard Way,' Hartl's guide, RailsCasts, etc. But this requires a great deal of understanding of the domain. A RailsGirls workshop does not teach women how to create rails applications; the workshop teaches women how to learn to create rails applications. By giving them a few bits of vocabulary and a road map, they are set free to google (or bing?) useful searches and begin filling that gap to walk across to level (2).
+
+A2: Many men, on the other hand, for various reasons, often have more familiarity with the domain even when they do not work in the technical realm. I am currently reading a book that goes into great detail on the 'why' of this called 'Unlocking the Clubhouse: Women in Computing.' I'm gaining some insight as to the why, but it does not change the current 'is' of the situation.
+
+Trying to bridge gap (1) and (2) is where the most embarrassment can come into play. I remember when I was new to web development laboring over a question before posting it into our company chat. I'd rather spend hours going in circles on one issue rather than ask a question that didn't make sense. I finally learned that I had to ignore my pride and just ask. Sometimes my questions made sense, sometimes I was asking the equivalent of a @horse_recruiter tweet. However, I had a great group of supportive coworkers that never ridiculed me (to my face at least!).
+
+Another theory that I have is that it is easier to cross that level (1) to (2) gap when you see others on the other side that you recognise and identify with in some way. I would wager that women can get into some other ares (knitting??) more confidently on seeing plenty of other successful women on the other side. The ""hey, I know and am familiar with that person' and the 'hey, that person is a lot like me"" on the other side makes asking for help that much more comfortable. When a woman looks from level (1), she doesn't see very many women on level (2) through (4) unless she spends some time hunting. Men who are interested in learning programming can show up to a meet up and immediately find other success stories to relate to.
+
+A3: This question has been getting a lot of attention lately, so it might be redundant. But it is worth rehashing what I think is the biggest points: (1) if only one type of person engineers a solution, you lose out on other, potentially better, vantage points.
+
+A4: I am concerned that while the push for 'more diversity' has yielded a lot of a attention where attention was needed, that maybe we need to start asking more important questions.
+
+A quick closing thought: I look forward to the day where outreach workshops are not as needed. Hopefully by putting in the effort now, careers in technology will become a natural, unsurprising choice for any bright and ambitious young woman.",

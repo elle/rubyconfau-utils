@@ -27,7 +27,7 @@
     .wrapper
       %h1 Ruby Conf AU 2014 Talk Proposals
       %ul
-        - CSV.foreach('proposals.csv', headers: true) do |row|
+        - CSV.foreach('anons.csv', headers: true) do |row|
           %li
             %h2.title= "#{row[0]}: #{row[1]}"
             .proposal
