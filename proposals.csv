@@ -1,7 +1,7 @@
 ,TITLE,PR DESCRIPTION,PROPOSAL,COMMENTS
 1,Continuous Delivery of Rails Applications,,"# Continuous Delivery of Rails Applications (or 'webscale' Rails)
 
-Taking your app from it's infancy, and turning it into something that can serve tens of thousands of requests a minute, is no cakewalk.
+Taking your app from it's infancy, and turning it into something that can serve tens of thousands of requests a minute, is no cakewalk. 
 
 This talk will go through the steps to build a Continuous Delivery pipeline for your Rails Applications. Including:
   - Running your specs and features (of course)
@@ -14,7 +14,7 @@ This talk will go through the steps to build a Continuous Delivery pipeline for 
 
 ## Luke Chadiwck
 
-Geek since birth. DevOp. Ruby Developer. Lover. Idealist.
+Geek since birth. DevOp. Ruby Developer. Lover. Idealist. 
 
 While I love doing Ruby and Rails development, I also enjoy building production environments and keeping them running (and all that that entails).
 
@@ -140,18 +140,18 @@ Mark Bates is the founder and chief architect of the Boston, MA based consulting
 - [Past talk video](http://confreaks.com/videos/2617-btvruby2013-keynote-get-better)",
 12,Learning from Smalltalk,"This talk covers the features, history and capabilities of Smalltalk and the benefits that it can hold for all Rubyists.","# Learning from Smalltalk
 
-Smalltalk is an object-oriented, dynamically typed, reflective programming language.
-Smalltalk is a ""pure"" object-oriented programming language, meaning that, unlike
-Java and C++, there is no difference between values which are objects and values
-which are primitive types. In Smalltalk, primitive values such as integers, booleans
-and characters are also objects, in the sense that they are instances of corresponding
+Smalltalk is an object-oriented, dynamically typed, reflective programming language. 
+Smalltalk is a ""pure"" object-oriented programming language, meaning that, unlike 
+Java and C++, there is no difference between values which are objects and values 
+which are primitive types. In Smalltalk, primitive values such as integers, booleans 
+and characters are also objects, in the sense that they are instances of corresponding 
 classes, and operations on them are invoked by sending messages.
 
 Sound familiar?
 
-Smalltalk leaves a long shadow on the programming landscape and can be considered
-both as an ancestor and influence on the design of Ruby.  This talk introduces
-Smalltalk to Rubyists and covers software principles which can be applied to Ruby
+Smalltalk leaves a long shadow on the programming landscape and can be considered 
+both as an ancestor and influence on the design of Ruby.  This talk introduces 
+Smalltalk to Rubyists and covers software principles which can be applied to Ruby 
 applications, both large and small.
 
 Topics include:
@@ -246,7 +246,7 @@ Technical lead at [NetEngine](http://netengine.com.au/). Obsessive about simplic
 - [Past talk video](http://www.youtube.com/watch?v=GKe44oY-9Z0)",
 17, An Ode to 17 Databases in 39 minutes,"A detailed, deep-diving, in-the-deep-end and occasionally humorous whirlwind introduction and analysis of a suite of modern (and sometimes delightfully archaic) database technologies. ","# An Ode to 17 Databases in 39 minutes
 
-A detailed, deep-diving, in-the-deep-end and occasionally humorous whirlwind introduction and analysis of a suite of modern (and sometimes delightfully archaic) database technologies. How they work, why they work, and when you might want them to work in your Ruby and Rails application.
+A detailed, deep-diving, in-the-deep-end and occasionally humorous whirlwind introduction and analysis of a suite of modern (and sometimes delightfully archaic) database technologies. How they work, why they work, and when you might want them to work in your Ruby and Rails application. 
 
 At no extra charge I will also attempt to explain the oft-misunderstood CAP theorem, using databases as a device for understanding the trade offs and compromises inherent in building complex distributed systems.
 
@@ -285,19 +285,19 @@ Previous Talks and Slides
 ",
 18,Hitchikers guide to UXing without a UXer,A 'Douglas Adams' style quick-start guide for developers to help them keep the greatness in their product and ideas without having a designer or UXer on staff. ,"# Hitchikers guide to UXing without a UXer
 
-Sometimes you are tasked with building great things by yourself or in a small team. Bootstrapped start-ups don’t always have the budget for a dedicated UXer to help you design the best apps, software or websites. So how do design great things without a UXer?
+Sometimes you are tasked with building great things by yourself or in a small team. Bootstrapped start-ups don’t always have the budget for a dedicated UXer to help you design the best apps, software or websites. So how do design great things without a UXer? 
 
-This is not a definitive guide or to even to be used instead of getting professional UX help but it will get you started developing the right way and stop you making classic mistakes. Before you even consider touching your dev environment I will show you how to “Start with one idea”, “Think like a user” and set out your user journeys. From this solid foundation I will show you how to wireframe your logic and build a rough protoype.
+This is not a definitive guide or to even to be used instead of getting professional UX help but it will get you started developing the right way and stop you making classic mistakes. Before you even consider touching your dev environment I will show you how to “Start with one idea”, “Think like a user” and set out your user journeys. From this solid foundation I will show you how to wireframe your logic and build a rough protoype. 
 
-We then consider how to evaluate and iterate on your designs and what tools you can use. Finally, I outline the importance of never being afraid to scrap anything which doesn’t work. All without a single line of code being written.
+We then consider how to evaluate and iterate on your designs and what tools you can use. Finally, I outline the importance of never being afraid to scrap anything which doesn’t work. All without a single line of code being written. 
 
 Save your development time and build greatness into your product.
 
 ## Chrissy Welsh
 
-Chrissy Welsh is the Lead UX Consultant for Backbase, based in Amsterdam. She is interested in the potential of ‘bleeding edge’ technologies in user experience design to  make products easy and pleasurable to use.
+Chrissy Welsh is the Lead UX Consultant for Backbase, based in Amsterdam. She is interested in the potential of ‘bleeding edge’ technologies in user experience design to  make products easy and pleasurable to use. 
 
-She has over 10 years design experience and has worked with a variety of industries including software development, healthcare and education. Before Backbase, Chrissy was the senior UX/UI designer for Cloud9 IDE where she designed user experiences for online coding apps. She has also designed cloud based IDE's, cloud based monitoring systems, data migration software, online services & websites. She started her career in design as an opinionated web developer.
+She has over 10 years design experience and has worked with a variety of industries including software development, healthcare and education. Before Backbase, Chrissy was the senior UX/UI designer for Cloud9 IDE where she designed user experiences for online coding apps. She has also designed cloud based IDE's, cloud based monitoring systems, data migration software, online services & websites. She started her career in design as an opinionated web developer. 
 
 Chrissy has an honours degree in Applied Graphics with Multimedia Technology from Caledonian University, Glasgow, Scotland. When not writing grandiose bios she can be found drinking tea and drawing animals in hats.
 
@@ -414,7 +414,7 @@ The presentation will be very interactive. The presenter will ask the participat
 ## Description
 *Classical Economics* traditionally conceptualizes a world populated by agents calculating, unemotional maximizers bearing the name of Homo economicus. The classical economic ignores or dismisses virtually all human behavior studied by cognitive and social psychologists. The standard economic model of human behavior-realistic three features includes unlimited rationality, willpower and infinite selfishness without limits, all of which **Behavioral Economics (BE)** modifies it in a more *holistic* view based on *evidence* and *experiments*.
 
-Software craftsmanship is an approach to software development that emphasizes the coding skills of the software developers themselves vs the view of practitioners of the well-defined statistical analysis and mathematical rigor of an engineering approach with the connotations of predictability, precision, mitigated risk and professionalism. Dan North wrote: *""No-one wants your steenking (sic) software – they want the capabilities it gives them, and they want those yesterday""*.
+Software craftsmanship is an approach to software development that emphasizes the coding skills of the software developers themselves vs the view of practitioners of the well-defined statistical analysis and mathematical rigor of an engineering approach with the connotations of predictability, precision, mitigated risk and professionalism. Dan North wrote: *""No-one wants your steenking (sic) software – they want the capabilities it gives them, and they want those yesterday""*. 
 
 Why Ruby and Elixir programming languages that are designed to make programmers happy have been hypothesized to be more effective in the long run because happy programers are more productive. But this is true? What other factors should be taken in consideration? The BE could offer some light to this based on the findings of the field as:
   * Labor and Motivation: Meaning, IKEA effect, Not-Invented here bias, Cognitive Dissonance, Monetary/Social Stress and Performance.
@@ -462,10 +462,10 @@ Create and implement products, systems, applications, methods, startups and busi
   * Beauty and Style
   * Proactivity and Responding to Change
   * Meaning in Life
-  * Products with Soul
+  * Products with Soul 
 
 <i class="" icon-twitter""></i> [@mvidaurre](https://twitter.com/#!/mvidaurre) |
-<i class="" icon-facebook""></i> [manuel.enrique.vidaurre.arenas](http://www.facebook.com/manuel.enrique.vidaurre.arenas) |
+<i class="" icon-facebook""></i> [manuel.enrique.vidaurre.arenas](http://www.facebook.com/manuel.enrique.vidaurre.arenas) | 
 <i class="" icon-linked-in""></i> [manuelvidaurre](http://www.linkedin.com/in/manuelvidaurre)
 <i class="" icon-flickr""></i>  [16896625@N00](http://www.flickr.com/people/16896625@N00/)
 <i class="" icon-github""></i>  [mvidaurre](https://github.com/mvidaurre/)
@@ -602,9 +602,9 @@ As with most of my talks, humor plays an important role and I shall aim to get e
 
 ## Gautam Rege
 
-Driven by his passion for programming, Gautam co-founded Josh Software with Sethupathi Asokan in 2007. Gautam who still codes religiously leads the marketing of the India-based Josh Software brand across the world apart from being involved in delivering web solutions for the client partners of the organization.
+Driven by his passion for programming, Gautam co-founded Josh Software with Sethupathi Asokan in 2007. Gautam who still codes religiously leads the marketing of the India-based Josh Software brand across the world apart from being involved in delivering web solutions for the client partners of the organization. 
 
-He is an ardent promoter of Ruby on Rails and leads many of the brand’s initiatives to promote this framework in India. He helps organize the Annual RubyConf India, talks at Ruby Conferences across the world and manages local Ruby meetups. When not discussing Ruby, he loves talking about entrepreneurship and the importance of starting up young! Apart from being an active voice through his popular blog, Gautam has authored a book on Ruby and Mongo DB web development. He truly believes that Ruby is the language of the next generation of web application development.
+He is an ardent promoter of Ruby on Rails and leads many of the brand’s initiatives to promote this framework in India. He helps organize the Annual RubyConf India, talks at Ruby Conferences across the world and manages local Ruby meetups. When not discussing Ruby, he loves talking about entrepreneurship and the importance of starting up young! Apart from being an active voice through his popular blog, Gautam has authored a book on Ruby and Mongo DB web development. He truly believes that Ruby is the language of the next generation of web application development. 
 
 In his spare time apart from spending time with his family, he is an athlete and loves playing cricket, basketball and soccer when he can. He is always on the look out to fuel his hunger for adventure like skydiving and bungee jumping.
 
@@ -628,7 +628,7 @@ Since we can't fully remove bugs, this talk will cover strategies, hacks and mon
 
 ## Paul Gross
 
-Paul Gross is a developer working at [Braintree](https://www.braintreepayments.com/). Braintree helps businesses accept credit card payments online with great development tools and first class support. Before Braintree, Paul worked at [ThoughtWorks](http://www.thoughtworks.com/), a global consultancy, building custom software in many languages, including Java, .NET, Python and Ruby. Paul has worked in software development and delivery for over 10 years.
+Paul Gross is a developer working at [Braintree](https://www.braintreepayments.com/). Braintree helps businesses accept credit card payments online with great development tools and first class support. Before Braintree, Paul worked at [ThoughtWorks](http://www.thoughtworks.com/), a global consultancy, building custom software in many languages, including Java, .NET, Python and Ruby. Paul has worked in software development and delivery for over 10 years. 
 
 ![Profile picture](https://secure.gravatar.com/avatar/a6cbdd6473de1af38ef1d8e01588ae7e?s=200)
 
@@ -644,9 +644,9 @@ Last year at [RubyConf Australia](http://www.rubyconf.org.au), I gave a talk on 
 I also gave this talk on High Availbility at Braintree at [Surge](http://surge.omniti.com/2013), [Strangeloop](https://thestrangeloop.com/), and [Velocity](http://velocityconf.com/velocityny2013/).",
 30,Programming Elixir: The magic of today's tonic,,"# Programming Elixir: The magic of today's tonic
 
-Elixir is a new arrival on the programming language scene but many of the features that have Rubyists talking about it are actually old favourites for functional fans. Pragmatic Programmer Dave Thomas has lauded the open-source language as a means of demonstrating functional programming concepts without being overly academic. Influenced by Ruby and Clojure, the dynamic language takes advantage of the battle-hardened Erlang ecosystem to simplify the creation of concurrent, distributed applications -- all with functional flair. This presentation will examine the spellbinding elements of Elixir and how developers can use them for their own sprinkling of open sorcery.
+Elixir is a new arrival on the programming language scene but many of the features that have Rubyists talking about it are actually old favourites for functional fans. Pragmatic Programmer Dave Thomas has lauded the open-source language as a means of demonstrating functional programming concepts without being overly academic. Influenced by Ruby and Clojure, the dynamic language takes advantage of the battle-hardened Erlang ecosystem to simplify the creation of concurrent, distributed applications -- all with functional flair. This presentation will examine the spellbinding elements of Elixir and how developers can use them for their own sprinkling of open sorcery. 
 
-## Katie Miller
+## Katie Miller 
 
 Katie Miller is an OpenShift Developer Advocate at [Red Hat](http://www.redhat.com). The functional programming enthusiast co-founded the [Lambda Ladies](http://www.lambdaladies.com) community for women in FP and serves as a Co-Organiser of the [Brisbane Functional Programming Group](http://bfpg.org). Katie, a former journalist, still writes shorthand notes faster than she can type.
 
@@ -724,13 +724,13 @@ Many people use integration tests to check if an element is displayed or not, wh
 
 In this presentation Nigel will reveal a better solution. We will review the core problem and then examine a fast and consistent way of testing whether multiple elements are (or are not) displayed, based on a context.","# Fast & Effective View Testing
 
-Many people use integration tests to check if an element is displayed or not, which is slow and cumbersome. Others use RSpec view specs, which end up creating duplicated code and scenarios.
+Many people use integration tests to check if an element is displayed or not, which is slow and cumbersome. Others use RSpec view specs, which end up creating duplicated code and scenarios. 
 
 In this presentation Nigel will reveal a better solution. We will review the core problem and then examine a fast and consistent way of testing whether multiple elements are (or are not) displayed, based on a context.
 
 ## Nigel Rausch
 
-Nigel, who has been a part of the Ruby Australia Committee, is heavily involved in the Australian Tech community. He organises the Local Brisbane’s Ruby, Javascript and WorkAtJelly meetups as well he as organised CampJS and RailsCamps.
+Nigel, who has been a part of the Ruby Australia Committee, is heavily involved in the Australian Tech community. He organises the Local Brisbane’s Ruby, Javascript and WorkAtJelly meetups as well he as organised CampJS and RailsCamps. 
 
 ![Profile picture](profile_picture.jpg)
 
@@ -949,7 +949,7 @@ In this talk, I will walk you through the ins and outs of building Spyglass, an 
 
 ## André Medeiros
 
-André is a Ruby Ninja and self-confessed open-source evangelist at Quintel, Amsterdam. There he develops powerful applications for the renewable energy space. Previously Andre headed up the Mobile Division for the leading global internet casino company - BetVictor.com where his talent was recognised from developing the company mobile offering from internal business pitch to successful delivery. The app is now one of the most profitable revenues streams in the company's possession. He was born in the Azores, a tropical set of islands in the middle of the Atlantic that apparently breeds Ruby talent.
+André is a Ruby Ninja and self-confessed open-source evangelist at Quintel, Amsterdam. There he develops powerful applications for the renewable energy space. Previously Andre headed up the Mobile Division for the leading global internet casino company - BetVictor.com where his talent was recognised from developing the company mobile offering from internal business pitch to successful delivery. The app is now one of the most profitable revenues streams in the company's possession. He was born in the Azores, a tropical set of islands in the middle of the Atlantic that apparently breeds Ruby talent. 
 
 Following his personal motto of ""Let's make it cool"", Andre loves providing innovation and style within disruptive tech industries.
 
@@ -1162,11 +1162,11 @@ Benjamin Smith is a developer at Pivotal Labs. He has a strong passion for TDD, 
 - [My twitter](https://twitter.com/benjamin_smith)
 - [Past talk slides](https://speakerdeck.com/benjaminleesmith/how-i-architected-my-big-rails-app-for-success-rmr-2013)
 - [Past talk video](http://www.confreaks.com/videos/2646-rockymountainruby2013-how-i-architected-my-big-rails-app-for-success)",
-53,Can Ansible Replace Capistrano?,"Ansible can be used for configuration management like Chef and Puppet. It can also be used for application deployment like Capistrano.
+53,Can Ansible Replace Capistrano?,"Ansible can be used for configuration management like Chef and Puppet. It can also be used for application deployment like Capistrano.  
 
 In this talk, we will investigate the advantages of using one tool for configuration management and application deployment.","# Can Ansible Replace Capistrano?
 
-[Ansible](http://www.ansibleworks.com/) can be used for configuration managment like Chef and Puppet. It can also be used for application deployment like Capistrano.
+[Ansible](http://www.ansibleworks.com/) can be used for configuration managment like Chef and Puppet. It can also be used for application deployment like Capistrano.  
 
 In this talk, we will investigate the advantages of using one tool for configuration management and application deployment.
 
@@ -1193,7 +1193,7 @@ Let me take you on a journey of maintaining a ""mission critical"" legacy applic
 
 This talk is based on my experience of the past 18 months working with [Bulletproof](http://www.bulletproof.net) in Sydney. I inherited an Rails application that had grown from a single purpose app to the company's CRM application, under the pressure of a rapidly growing business.
 
-As if this wasn't challenging enough, the CRM application had been built on top of another legacy Perl system that dates back more than a decade ago. Although these mostly internal applications don't experience much load, they are still very critical to Bulletproof's business.
+As if this wasn't challenging enough, the CRM application had been built on top of another legacy Perl system that dates back more than a decade ago. Although these mostly internal applications don't experience much load, they are still very critical to Bulletproof's business. 
 
 ## Sebastian Korfmann
 
@@ -1225,7 +1225,7 @@ I've been coding since I was 12 years old and professionally since my early twen
 - [www.codehire.com](http://codehire.com)
 - [@danieldraper](https://twitter.com/danieldraper)",
 56,Testing Mobile apps with Ruby,,"# Testing Native Mobile Apps with Ruby
-Testing is so ingrained in our culture we have it down to Scientific Formula:
+Testing is so ingrained in our culture we have it down to Scientific Formula:  
 
 _Testing + Methods = RSpec_
 
@@ -1251,9 +1251,9 @@ He finds TV too passive and movies too boring, so you can find him playing video
 - [Web Testing for Ninjas with Splinter](http://pyvideo.org/video/2237/web-testing-for-ninjas-with-splinter)",
 57,The Mysterious Fog Particles,,"# The Mysterious Fog Particles
 
-Fog particles are mysterious - they're in front of us in our code and we can't see them! Fog particles corrupt our code and often unknowingly we add lot of them in our code. What's worse is that when we identify them in our ""cloudy source code"", we can't get rid of them easily.
+Fog particles are mysterious - they're in front of us in our code and we can't see them! Fog particles corrupt our code and often unknowingly we add lot of them in our code. What's worse is that when we identify them in our ""cloudy source code"", we can't get rid of them easily. 
 
-This talk is about,
+This talk is about, 
 * What are these mysterious fog particles?
 * How do we add these fog particles to our code without realizing it?
 * How can we indentify and remove them?
@@ -1263,7 +1263,7 @@ Generally these mysterious fog particles are complex code snippets that are gene
 
 ## Swapnil Chincholkar
 
-Swapnil started his career in software industry from January 2011, with Josh Software, India’s leading company building innovative web applications and working exclusively in Ruby On Rails since 2007.
+Swapnil started his career in software industry from January 2011, with Josh Software, India’s leading company building innovative web applications and working exclusively in Ruby On Rails since 2007. 
 
 Apart from coding, he likes to enjoy his time with team-mates, college friends. He is a foodie and loves travelling and photography.
 
@@ -1287,7 +1287,7 @@ Almost anyone doing a Ruby app ends up using Rack in one way or the other withou
 
 I am a co-founder at [Revealing Hour](http://revealinghour.in) and also run the [Internet-of-Things Pune community](http://internetofthings-pune.blogspot.com).
 
-I have earlier talked at 'Ruby Conf India 2013' on 'Ruby and Arduino'
+I have earlier talked at 'Ruby Conf India 2013' on 'Ruby and Arduino' 
 
 ![Profile picture](https://raw.github.com/nishantmodak/rubyconfau-2014-cfp/master/talk-nishantmodak-rack_a_framework_to_roll_your_own/profile_picture.jpg)
 
@@ -1356,7 +1356,7 @@ Configure a load balancer
 Configure a custom network
 Along the way, I will demonstrate how fog works and provide you with a sample template that can be applied to all of your projects.","# Beyond Platform As A Service (PaaS)
 
-When it comes to deploying web applications most Rubysts turn to Plaform as a Service (PaaS) solutions like Heroku and Engine Yard which is cool, but it can limit the gems and external processes you can use. Let's level up!
+When it comes to deploying web applications most Rubysts turn to Plaform as a Service (PaaS) solutions like Heroku and Engine Yard which is cool, but it can limit the gems and external processes you can use. Let's level up! 
 
 In this session I am going to show you how to roll your own IaaS cloud environment for maximum flexibility and control. I will use the popular fog gem to demonstrate how to do the following:
 
@@ -1611,7 +1611,7 @@ expect. Not only that, having been spoiled by google pouring money at the
 problem of search, users expect search to perform well.
 
 Being rubyists and not information retrieval specialists, it can be hard to work
-out why our chosen search solution doesn't work like we expect it to. Be it Sphinx,
+out why our chosen search solution doesn't work like we expect it to. Be it Sphinx, 
 Solr, ElasticSearch, Postgres fulltext or `SELECT ... LIKE` queries that's not
 always our jam and it can seem a bit like a dark art.
 
@@ -1936,7 +1936,7 @@ Requirements: Basic Ruby knowledge, a Mac computer and a valid RubyMotion licens
 
 Hands-on one-day workshop to bootstrap you into developing iOS applications with RubyMotion. We will introduce the iOS system, RubyMotion, then write our very first iOS app.
 
-Requirements: Basic Ruby knowledge, a Mac computer and a valid RubyMotion license.
+Requirements: Basic Ruby knowledge, a Mac computer and a valid RubyMotion license. 
 
 ## Lori M Olson
 
@@ -1953,7 +1953,7 @@ Some problems can be solved quickly.
 Some problems can be solved slowly.
 Some problems you should never, ever promise your boss you can solve in a reasonable amount of time.
 Have you ever heard your boss tell a client, 'Sure, we can calculate the optimal route for your salespeople'? How about, 'Yes, we can determine the most efficient schedule for those activities.'
-This talk will explain why those promises are a bad idea, and why you should always be very careful when promising absolutes. It will serve as a reminder for those who've met the P vs NP problem before, and a brief introduction to those who have not.
+This talk will explain why those promises are a bad idea, and why you should always be very careful when promising absolutes. It will serve as a reminder for those who've met the P vs NP problem before, and a brief introduction to those who have not. 
 And if you can solve them in an efficient manner on a Friday afternoon, there's a million dollars in it for you. Even if you can do it on a Monday morning!
 ","# Problems not to solve on a Friday afternoon
 
@@ -1963,24 +1963,24 @@ Some problems you should never, ever promise your boss you can solve in a reason
 
 Have you ever heard your boss tell a client, ""Sure, we can calculate the optimal route for your salespeople""? How about, ""Yes, we can determine the most efficient schedule for those activities.""
 
-This talk will explain why those promises are a bad idea, and why you should always be very careful when promising absolutes. It will serve as a reminder for those who've met the P vs NP problem before, and a brief introduction to those who have not.
+This talk will explain why those promises are a bad idea, and why you should always be very careful when promising absolutes. It will serve as a reminder for those who've met the P vs NP problem before, and a brief introduction to those who have not. 
 
 And if you can solve them in an efficient manner on a Friday afternoon, there's a million dollars in it for you. Even if you can do it on a Monday morning!
 
 ## Amanda Wagener
 
-Amanda Wagener is a freelance Ruby developer from Christchurch, New Zealand, but can often be found almost anywhere around the globe. She has a programming husband she convinced to switch to Ruby, and a three month old son who has already attended his first Ruby meetup.
+Amanda Wagener is a freelance Ruby developer from Christchurch, New Zealand, but can often be found almost anywhere around the globe. She has a programming husband she convinced to switch to Ruby, and a three month old son who has already attended his first Ruby meetup. 
 
 ![Profile picture](https://raw.github.com/awagener/rubyconfau-2014-cfp/problems_not_to_solve_on_a_friday_afternoon/talk-amanda_wagener-problems_not_to_solve_on_a_friday_afternoon/profile_picture.jpg)
 
 - [My website](http://awagener.com)
 - [My twitter](https://twitter.com/a_wagener)",
 84,The Parental Programmer,"# The Parental Programmer
-Programming can be an all consuming job. So can parenting.
+Programming can be an all consuming job. So can parenting. 
 How do you keep up with new technology, contribute to open source, earn some money, and be there for your children?  What do you focus on and what do you discard?  Is it even possible to do it all?
 As the mother of a 3 month old, I certainly don't have all the answers. This talk will collate suggestions from programming parents all around the world, so we can make new mistakes going forward, instead of repeating those of the past.","# The Parental Programmer
 
-Programming can be an all consuming job. So can parenting.
+Programming can be an all consuming job. So can parenting. 
 
 How do you keep up with new technology, contribute to open source, earn some money, and be there for your children?  What do you focus on and what do you discard?  Is it even possible to do it all?
 
@@ -1988,7 +1988,7 @@ As the mother of a 3 month old, I certainly don't have all the answers. This tal
 
 ## Amanda Wagener
 
-Amanda Wagener is a freelance Ruby developer from Christchurch, New Zealand, but can often be found almost anywhere around the globe. She has a programming husband she convinced to switch to Ruby, and a three month old son who has already attended his first Ruby meetup.
+Amanda Wagener is a freelance Ruby developer from Christchurch, New Zealand, but can often be found almost anywhere around the globe. She has a programming husband she convinced to switch to Ruby, and a three month old son who has already attended his first Ruby meetup. 
 
 ![Profile picture](https://raw.github.com/awagener/rubyconfau-2014-cfp/the_parental_programmer/talk-amanda_wagener-the_parental_programmer/profile_picture.jpg)
 
@@ -2078,7 +2078,7 @@ With 15 years of development experience in Ruby and Java across various industri
 
 - [My website](http://phantomwhale.github.io/)
 - [My twitter](https://twitter.com/phantomwhale)",
-89,Fighting Fires,":fire: + :sweat_smile:  + :sweat_drops: == :smile:
+89,Fighting Fires,":fire: + :sweat_smile:  + :sweat_drops: == :smile: 
 ---
 I want to talk about the bits of launching a product as a small
 team that are hard and more important. I won't be talking about
@@ -2222,7 +2222,7 @@ Kerri Miller is a Sr Software Developer and Team Lead based in the Pacific North
 - [Past talk video](http://steelcityruby.confbots.com/video/72770891)",
 93,How To Interview And Why,,"# How to Interview and Why
 
-We do a lot of things right in our industry, but one thing we're really bad at is interviewing job candidates. An interview too often feels like a first date - awkward, strange, and not entirely predictive of what's to follow. There are countless books and websites to help you when you're a job seeker, but what about when you're the one doing the hiring? Will you just ask the same puzzle questions or sort algorithm problems? What are your metrics for evaluating or contextualizing the answers? In this talk, I'll discuss successful practices and techniques to help you find someone who will innovate your business, bring new energy to your team, get the work done, and be someone you'll want to work with.
+We do a lot of things right in our industry, but one thing we're really bad at is interviewing job candidates. An interview too often feels like a first date - awkward, strange, and not entirely predictive of what's to follow. There are countless books and websites to help you when you're a job seeker, but what about when you're the one doing the hiring? Will you just ask the same puzzle questions or sort algorithm problems? What are your metrics for evaluating or contextualizing the answers? In this talk, I'll discuss successful practices and techniques to help you find someone who will innovate your business, bring new energy to your team, get the work done, and be someone you'll want to work with. 
 
 ## Kerri Miller
 
@@ -2505,10 +2505,10 @@ becoming a developer is changing. This talk will focus on alternative and
 untraditional paths to becoming a developer such as programs like Railsbridge,
 mentorship and apprentice programs. These alternative paths ultimately foster a
 more diverse and inclusive community, which drives economic growth and produces
-more innovative solutions.
-The objectives of the talk are:
-- to bring awareness to the educational alternatives to computer science degrees
-- to encourage empathy when mentoring a beginner
+more innovative solutions. 
+The objectives of the talk are: 
+- to bring awareness to the educational alternatives to computer science degrees 
+- to encourage empathy when mentoring a beginner 
 - to get the audience to see a different perspective and embrace differences in
   the industry
 
@@ -2625,13 +2625,13 @@ I race bikes (Mountain and Road), sometimes I go surfing, and sometimes I'll be 
 - [My twitter](https://twitter.com/quamen)",
 107,Late to the party: From Java to Ruby,My journey from being mostly Java to mostly Ruby dev. You will find this talk useful if you want to make transition from one technology/community to another. ,"# Late to the party: From Java to Ruby
 
-My journey from being mostly Java to mostly Ruby dev. You will find this talk useful if you want to make transition from one technology/community to another.
+My journey from being mostly Java to mostly Ruby dev. You will find this talk useful if you want to make transition from one technology/community to another. 
 
 We will cover:
 
  - Where should you start
- - What to do, once you know the basics
- - Making the transition
+ - What to do, once you know the basics 
+ - Making the transition 
 
 This talk will be particularly beneficial for people moving into Ruby.
 
@@ -2661,7 +2661,7 @@ I plan to make the talk humorous, informative, and in general a good time for al
 
 Thanks for reading this far, and I hope you'll consider my proposal!
 
-# Ernie Miller",
+## Ernie Miller",
 ,... but we had to kill unicorns,,"How often do you have to leave your comfort zone? How often does it happen that you need to change the fundamentals of your application?
 
 Well… it has happened to my team some time ago. We had to abandon our way of thinking about Ruby on Rails applications. Single-threaded servers were not a choice anymore, neither was JRuby nor Event Machine. And we had to handle up to 200k requests per minute.
@@ -2696,7 +2696,7 @@ Included in this part of the talk, in particular, are:
 [angular]:http://angularjs.org
 [ember]:http://emberjs.com
 
-# Alex Coles",
+## Alex Coles",
 ,Find Simplicity With Plain Old Ruby Objects,,"# Encuentra la simpleza con objetos Ruby sencillos
 # Find Simplicity With Plain Old Ruby Objects
 
@@ -2721,7 +2721,7 @@ There will also be a discussion about the stage when you should begin implementi
 [Data Mapper]:http://martinfowler.com/eaaCatalog/dataMapper.html
 [Repository]:http://martinfowler.com/eaaCatalog/repository.html
 
-# Alex Coles",
+## Alex Coles",
 ,Ruby Community: How a language reflects its people,,"# Ruby Community
 ## How a language reflects its people
 
@@ -2731,7 +2731,7 @@ The Ruby community is known for having a very active user group. I will investig
 
 The talk also includes a run-down of my experiences running an event (eurucamp) by and for the Ruby community, and how everyone can participate in building a better community and this could help to continue building a better language.
 
-# Alex Coles",
+## Alex Coles",
 ,Bridging the Gap to Unconscious Incompetence,,"Talk:
 Q1: why are things like Rails Girls and Railsbridge necessary to engage women?
 Q2: why don't men need outreach programs?
@@ -2747,7 +2747,7 @@ A2: Many men, on the other hand, for various reasons, often have more familiarit
 
 Trying to bridge gap (1) and (2) is where the most embarrassment can come into play. I remember when I was new to web development laboring over a question before posting it into our company chat. I'd rather spend hours going in circles on one issue rather than ask a question that didn't make sense. I finally learned that I had to ignore my pride and just ask. Sometimes my questions made sense, sometimes I was asking the equivalent of a @horse_recruiter tweet. However, I had a great group of supportive coworkers that never ridiculed me (to my face at least!).
 
-Another theory that I have is that it is easier to cross that level (1) to (2) gap when you see others on the other side that you recognize and identify with in some way. I would wager that women can get into some other ares (knitting??) more confidently on seeing plenty of other successful women on the other side. The "hey, I know and am familiar with that person' and the 'hey, that person is a lot like me" on the other side makes asking for help that much more comfortable. When a woman looks from level (1), she doesn't see very many women on level (2) through (4) unless she spends some time hunting. Men who are interested in learning programming can show up to a meet up and immediately find other success stories to relate to.
+Another theory that I have is that it is easier to cross that level (1) to (2) gap when you see others on the other side that you recognize and identify with in some way. I would wager that women can get into some other ares (knitting??) more confidently on seeing plenty of other successful women on the other side. The ""hey, I know and am familiar with that person' and the 'hey, that person is a lot like me"" on the other side makes asking for help that much more comfortable. When a woman looks from level (1), she doesn't see very many women on level (2) through (4) unless she spends some time hunting. Men who are interested in learning programming can show up to a meet up and immediately find other success stories to relate to.
 
 A3: This question has been getting a lot of attention lately, so it might be redundant. But it is worth rehashing what I think is the biggest points: (1) if only one type of person engineers a solution, you lose out on other, potentially better, vantage points.
 
@@ -2755,6 +2755,6 @@ A4: I am concerned that while the push for 'more diversity' has yielded a lot of
 
 A quick closing thought: I look forward to the day where outreach workshops are not as needed. Hopefully by putting in the effort now, careers in technology will become a natural, unsurprising choice for any bright and ambitious young woman.
 
-Pamela O. Vickers
+## Pamela O. Vickers
 pwnela.com
-@pwnela"
+@pwnela",
